@@ -1,0 +1,22 @@
+.build/
+.swiftpm/
+dist/
+.DS_Store
+*.xcuserstate
+*.log
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.store*
+*.db
+*.db-shm
+*.db-wal
+verification-output/
+__pycache__/
+*.py[cod]
+
+# Local screenshots, exported play histories, and personal analysis reports
+photo/
+our-notes-analysis-*.json
+Docs/PlayAnalysis*.md

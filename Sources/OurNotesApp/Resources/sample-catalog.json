@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "gameId": "our-notes",
+  "sourceId": "sample-verified-screenshots",
+  "revision": 1,
+  "generatedAt": "2026-10-01T08:00:00Z",
+  "isComplete": false,
+  "songs": [
+    {"id":"sample-song-001","title":"青春コンプレックス","aliases":[],"status":"active","charts":[{"id":"sample-chart-001","difficulty":"EXPERT","level":25,"status":"active"}]},
+    {"id":"sample-song-002","title":"六兆年と一夜物語","aliases":[],"status":"active","charts":[{"id":"sample-chart-002","difficulty":"EXPERT","level":26,"status":"active"}]},
+    {"id":"sample-song-003","title":"焚音打","aliases":[],"status":"active","charts":[{"id":"sample-chart-003","difficulty":"EXPERT","level":29,"status":"active"}]}
+  ]
+}

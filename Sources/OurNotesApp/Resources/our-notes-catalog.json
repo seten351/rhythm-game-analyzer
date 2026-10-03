@@ -1,0 +1,6557 @@
+{
+  "formatVersion": 1,
+  "gameId": "our-notes",
+  "sourceId": "our-notes-community",
+  "revision": 1,
+  "generatedAt": "2026-10-02T00:47:57Z",
+  "isComplete": true,
+  "songs": [
+    {
+      "id": "song-18f75f20-ca32-4277-87bd-dc1d5a8a11ce",
+      "title": "迷星叫",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-293ffeec-03a2-42f8-b534-eaadd0f3efaa",
+          "difficulty": "EASY",
+          "level": 9,
+          "status": "active"
+        },
+        {
+          "id": "chart-a09cea4a-adfe-4688-b984-ac0be1c3570c",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-85557515-ec53-411b-874f-93b57ad75e21",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-52dff381-70a8-4515-a9c1-1503b3ef74a7",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "迷星叫",
+          "url": "https://gamerch.com/bang-dream-on/993714",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "迷星叫",
+          "url": "https://appmedia.jp/bang-dream-on/80427883",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "迷星叫",
+          "url": "https://wikiwiki.jp/on_database/%E8%BF%B7%E6%98%9F%E5%8F%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 1
+        },
+        "wikilist": {
+          "title": "迷星叫",
+          "url": "https://wikiwiki.jp/on_database/%E8%BF%B7%E6%98%9F%E5%8F%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-96fbcb45-9aea-4566-b600-a1c5e38dc0bc",
+      "title": "壱雫空",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-3cc18ccb-35b8-49d3-a70e-eb837044efb8",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-a14c5b28-f977-4b50-a01b-50f75d20bfcf",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-ed1530bc-b063-4b7e-849c-64b903d3b8d8",
+          "difficulty": "HARD",
+          "level": 21,
+          "status": "active"
+        },
+        {
+          "id": "chart-043c2f26-b0a8-4123-a6f1-a606dbadc8b4",
+          "difficulty": "EXPERT",
+          "level": 27,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "壱雫空",
+          "url": "https://gamerch.com/bang-dream-on/993713",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 21,
+            "EXPERT": 27
+          }
+        },
+        "appmedia": {
+          "title": "壱雫空",
+          "url": "https://appmedia.jp/bang-dream-on/80427886",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 21,
+            "EXPERT": 27
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "壱雫空",
+          "url": "https://wikiwiki.jp/on_database/%E5%A3%B1%E9%9B%AB%E7%A9%BA%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 2
+        },
+        "wikilist": {
+          "title": "壱雫空",
+          "url": "https://wikiwiki.jp/on_database/%E5%A3%B1%E9%9B%AB%E7%A9%BA%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 21,
+            "EXPERT": 27
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-f89b2044-75c8-4929-a5b7-9f297e14ba1c",
+      "title": "碧天伴走",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-c6fff53f-fcd6-4391-8b50-4769ddd2d46a",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-9fcb7a0c-5c0e-4053-b198-3b721cffd777",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-0540befb-7eaa-4e03-a9de-f1063d8c99db",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-dfcfd5ef-a7a8-4671-b2e8-e4826278a37b",
+          "difficulty": "EXPERT",
+          "level": 27,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "碧天伴走",
+          "url": "https://gamerch.com/bang-dream-on/993693",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 27
+          }
+        },
+        "appmedia": {
+          "title": "碧天伴走",
+          "url": "https://appmedia.jp/bang-dream-on/80427889",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 27
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "碧天伴走",
+          "url": "https://wikiwiki.jp/on_database/%E7%A2%A7%E5%A4%A9%E4%BC%B4%E8%B5%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 3
+        },
+        "wikilist": {
+          "title": "碧天伴走",
+          "url": "https://wikiwiki.jp/on_database/%E7%A2%A7%E5%A4%A9%E4%BC%B4%E8%B5%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 27
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-8b6cfc36-b082-4fd4-ba6c-a04e442c5547",
+      "title": "影色舞",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-4984f48c-8abb-4f4e-a97b-52be8cae40c7",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-2b7d610b-26c4-45ac-b34f-db4a280afa0b",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-6b0beb48-6793-459a-85ca-3860d3f94900",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-7346fd27-8ce0-4c2d-9ab0-4f44a70b155a",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "影色舞",
+          "url": "https://gamerch.com/bang-dream-on/993712",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 11,
+            "HARD": 18,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "影色舞",
+          "url": "https://appmedia.jp/bang-dream-on/80427892",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 11,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "影色舞",
+          "url": "https://wikiwiki.jp/on_database/%E5%BD%B1%E8%89%B2%E8%88%9E%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 4
+        },
+        "wikilist": {
+          "title": "影色舞",
+          "url": "https://wikiwiki.jp/on_database/%E5%BD%B1%E8%89%B2%E8%88%9E%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 11,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-ac7ff47f-79cd-4fad-8bb0-c001b901c574",
+      "title": "潜在表明",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-701f171f-3afe-4329-a54f-f98e7d4a0880",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-9af28961-6e38-4c33-a4cc-4da4f083178c",
+          "difficulty": "NORMAL",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-0020a431-46e1-418e-9ee4-e094a06f2e6d",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-bea9b2e0-f510-4d92-96d4-4de0e3f29e9a",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "潜在表明",
+          "url": "https://gamerch.com/bang-dream-on/1016793",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 15,
+            "HARD": 18,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "潜在表明",
+          "url": "https://appmedia.jp/bang-dream-on/80427895",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 15,
+            "HARD": 18,
+            "EXPERT": 23
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "潜在表明",
+          "url": "https://wikiwiki.jp/on_database/%E6%BD%9C%E5%9C%A8%E8%A1%A8%E6%98%8E%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 5
+        },
+        "wikilist": {
+          "title": "潜在表明",
+          "url": "https://wikiwiki.jp/on_database/%E6%BD%9C%E5%9C%A8%E8%A1%A8%E6%98%8E%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 15,
+            "HARD": 18,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-2c5d0609-be1d-40e4-a978-439bf3fc731d",
+      "title": "音一会",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-9178565c-25a5-4c3f-937c-205b3688b0ed",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-72c5c8ec-4f7f-4a9f-a502-8477f16a90c9",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-507936ec-d4cb-482b-a165-5be2ffa993a8",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-c7637e42-2f88-4f7d-84d1-6f4052956c7a",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "音一会",
+          "url": "https://gamerch.com/bang-dream-on/1016794",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "音一会",
+          "url": "https://appmedia.jp/bang-dream-on/80427898",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "音一会",
+          "url": "https://wikiwiki.jp/on_database/%E9%9F%B3%E4%B8%80%E4%BC%9A%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 6
+        },
+        "wikilist": {
+          "title": "音一会",
+          "url": "https://wikiwiki.jp/on_database/%E9%9F%B3%E4%B8%80%E4%BC%9A%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-44bef41b-fd02-413f-9f72-43d782758ddc",
+      "title": "春日影(MyGO!!!!! ver.)",
+      "aliases": [
+        "春日影（MyGO!!!!! ver.）"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-045da54f-c988-4fde-bfca-e8b566ad51d7",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-dbb746c7-9e72-4193-9dac-f5ca77049713",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-b144e830-2fae-41ea-950e-f748f8aaf966",
+          "difficulty": "HARD",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-0bcf9049-f93f-482b-9687-2b6d88708389",
+          "difficulty": "EXPERT",
+          "level": 20,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "春日影（MyGO!!!!! ver.）",
+          "url": "https://gamerch.com/bang-dream-on/993710",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 11,
+            "HARD": 15,
+            "EXPERT": 20
+          }
+        },
+        "appmedia": {
+          "title": "春日影(MyGO!!!!! ver.)",
+          "url": "https://appmedia.jp/bang-dream-on/80427901",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 11,
+            "HARD": 15,
+            "EXPERT": 20
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "春日影(MyGO!!!!! ver.)",
+          "url": "https://wikiwiki.jp/on_database/%E6%98%A5%E6%97%A5%E5%BD%B1%28MyGO%21%21%21%21%21%20ver.%29%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 7
+        },
+        "wikilist": {
+          "title": "春日影(MyGO!!!!! ver.)",
+          "url": "https://wikiwiki.jp/on_database/%E6%98%A5%E6%97%A5%E5%BD%B1%28MyGO%21%21%21%21%21%20ver.%29%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 11,
+            "HARD": 15,
+            "EXPERT": 20
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-0694b6c9-edde-4a91-967a-61312d90cc7e",
+      "title": "詩超絆",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-27f3c1c4-f229-4c3f-9358-0dfd417cd9f5",
+          "difficulty": "EASY",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-26b26a15-ca5c-49e5-a274-dc0da25be78b",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-dc54644b-eca1-468f-bc63-c503600e47cf",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-1695959a-339f-4098-901d-af5cb11c4314",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "詩超絆",
+          "url": "https://gamerch.com/bang-dream-on/993690",
+          "levels": {
+            "EASY": 11,
+            "NORMAL": 14,
+            "HARD": 19,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "詩超絆",
+          "url": "https://appmedia.jp/bang-dream-on/80427904",
+          "levels": {
+            "EASY": 11,
+            "NORMAL": 14,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "詩超絆",
+          "url": "https://wikiwiki.jp/on_database/%E8%A9%A9%E8%B6%85%E7%B5%86%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 8
+        },
+        "wikilist": {
+          "title": "詩超絆",
+          "url": "https://wikiwiki.jp/on_database/%E8%A9%A9%E8%B6%85%E7%B5%86%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 11,
+            "NORMAL": 14,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-feb0af3e-92e0-4a15-a433-1ffcd29acbb3",
+      "title": "迷路日々",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-45bc0a4c-800b-4877-9ea3-a518c3d7c664",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-d4a7715e-0fd0-437f-89c0-77c59be504b3",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-4b3607a7-46c4-4ffe-9853-19d149137742",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-28c8220d-5cf9-4855-bd93-5dc46ec791b0",
+          "difficulty": "EXPERT",
+          "level": 27,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "迷路日々",
+          "url": "https://gamerch.com/bang-dream-on/993707",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 27
+          }
+        },
+        "appmedia": {
+          "title": "迷路日々",
+          "url": "https://appmedia.jp/bang-dream-on/80427907",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 27
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "迷路日々",
+          "url": "https://wikiwiki.jp/on_database/%E8%BF%B7%E8%B7%AF%E6%97%A5%E3%80%85%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 9
+        },
+        "wikilist": {
+          "title": "迷路日々",
+          "url": "https://wikiwiki.jp/on_database/%E8%BF%B7%E8%B7%AF%E6%97%A5%E3%80%85%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 27
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-7beb72cd-94e2-44cb-9647-7bb83b583652",
+      "title": "無路矢",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-30726fd7-42db-4774-9061-b7c8ca34c5d8",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-9a461490-0b04-44bc-a286-a36fb969a82a",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-c21a9257-fa08-4949-b296-4b04f2489330",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-915886f4-a655-4037-842f-3b5197dc07cc",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "無路矢",
+          "url": "https://gamerch.com/bang-dream-on/1016780",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "無路矢",
+          "url": "https://appmedia.jp/bang-dream-on/80427910",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "無路矢",
+          "url": "https://wikiwiki.jp/on_database/%E7%84%A1%E8%B7%AF%E7%9F%A2%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 10
+        },
+        "wikilist": {
+          "title": "無路矢",
+          "url": "https://wikiwiki.jp/on_database/%E7%84%A1%E8%B7%AF%E7%9F%A2%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-802ed929-d383-47b9-9437-7ba86337a24a",
+      "title": "名無声",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-51467f84-7029-49c5-b452-35653dbb4684",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-589cbde8-810a-4ab3-8815-916846a2aa51",
+          "difficulty": "NORMAL",
+          "level": 10,
+          "status": "active"
+        },
+        {
+          "id": "chart-0da48db9-a0c5-450c-bb5d-3d8c2d41c203",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-563a5394-09cb-46d9-a7d6-f73ac3e24047",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "名無声",
+          "url": "https://gamerch.com/bang-dream-on/993706",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 10,
+            "HARD": 20,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "名無声",
+          "url": "https://appmedia.jp/bang-dream-on/80427913",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 10,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "名無声",
+          "url": "https://wikiwiki.jp/on_database/%E5%90%8D%E7%84%A1%E5%A3%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 11
+        },
+        "wikilist": {
+          "title": "名無声",
+          "url": "https://wikiwiki.jp/on_database/%E5%90%8D%E7%84%A1%E5%A3%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 10,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-9654ebbf-f2e6-4a74-a6ac-8fdbdc9e1760",
+      "title": "歩拾道",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-b88bc4ab-e876-456c-8d79-df4f16560c6e",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-3aa4aad9-deda-42ec-a622-b66746890226",
+          "difficulty": "NORMAL",
+          "level": 16,
+          "status": "active"
+        },
+        {
+          "id": "chart-2ec07a20-2f5c-4d7d-bff9-c0ddf23b2abd",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-d59a2110-ff69-4e4f-8799-bf9f6dd39322",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "歩拾道",
+          "url": "https://gamerch.com/bang-dream-on/993704",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 16,
+            "HARD": 19,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "歩拾道",
+          "url": "https://appmedia.jp/bang-dream-on/80427916",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 16,
+            "HARD": 19,
+            "EXPERT": 23
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "歩拾道",
+          "url": "https://wikiwiki.jp/on_database/%E6%AD%A9%E6%8B%BE%E9%81%93%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 12
+        },
+        "wikilist": {
+          "title": "歩拾道",
+          "url": "https://wikiwiki.jp/on_database/%E6%AD%A9%E6%8B%BE%E9%81%93%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 16,
+            "HARD": 19,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-213f7184-fb7f-4b76-9871-eea85e352928",
+      "title": "端程山",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-a34526c9-b247-4dd4-8fca-f298a52fada3",
+          "difficulty": "EASY",
+          "level": 10,
+          "status": "active"
+        },
+        {
+          "id": "chart-c31e1c27-d261-4c8a-9b71-3830b04a354d",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-642155d5-b05b-4214-9fe0-93b01bd6ed37",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-6f127c51-b6ae-49d0-829b-797a083ad5f3",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "端程山",
+          "url": "https://gamerch.com/bang-dream-on/993702",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "端程山",
+          "url": "https://appmedia.jp/bang-dream-on/80427919",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 24
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "端程山",
+          "url": "https://wikiwiki.jp/on_database/%E7%AB%AF%E7%A8%8B%E5%B1%B1%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 13
+        },
+        "wikilist": {
+          "title": "端程山",
+          "url": "https://wikiwiki.jp/on_database/%E7%AB%AF%E7%A8%8B%E5%B1%B1%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-2b22550b-5286-4d1b-95ad-91c201dd08d1",
+      "title": "砂寸奏",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-af51cb26-a451-4fc9-9e08-1ba346a35bb9",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-976833f4-fd1c-4dfc-8104-431bde5e0200",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-edb707fa-1354-46e9-a801-735f57c549ff",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-8a822c40-effb-4069-8d25-68091c258570",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "砂寸奏",
+          "url": "https://gamerch.com/bang-dream-on/993694",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "砂寸奏",
+          "url": "https://appmedia.jp/bang-dream-on/80427922",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 24
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "砂寸奏",
+          "url": "https://wikiwiki.jp/on_database/%E7%A0%82%E5%AF%B8%E5%A5%8F%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 14
+        },
+        "wikilist": {
+          "title": "砂寸奏",
+          "url": "https://wikiwiki.jp/on_database/%E7%A0%82%E5%AF%B8%E5%A5%8F%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "sample-song-003",
+      "title": "焚音打",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-c4f0012e-ab36-44d0-a60d-f2ff32b5e7a4",
+          "difficulty": "EASY",
+          "level": 10,
+          "status": "active"
+        },
+        {
+          "id": "chart-bf6f6326-f66a-42ee-bc80-41a06a4c26ef",
+          "difficulty": "NORMAL",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-16296027-f906-4fd0-ad6c-4c29521faee6",
+          "difficulty": "HARD",
+          "level": 23,
+          "status": "active"
+        },
+        {
+          "id": "sample-chart-003",
+          "difficulty": "EXPERT",
+          "level": 29,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "焚音打",
+          "url": "https://gamerch.com/bang-dream-on/1016781",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 15,
+            "HARD": 23,
+            "EXPERT": 29
+          }
+        },
+        "appmedia": {
+          "title": "焚音打",
+          "url": "https://appmedia.jp/bang-dream-on/80427925",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 15,
+            "HARD": 23,
+            "EXPERT": 29
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "焚音打",
+          "url": "https://wikiwiki.jp/on_database/%E7%84%9A%E9%9F%B3%E6%89%93%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 15
+        },
+        "wikilist": {
+          "title": "焚音打",
+          "url": "https://wikiwiki.jp/on_database/%E7%84%9A%E9%9F%B3%E6%89%93%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 15,
+            "HARD": 23,
+            "EXPERT": 29
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-503be5fe-697e-4092-8ae5-90a9b53a316c",
+      "title": "聿日箋秋",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-0a855b8a-bd4d-4391-9475-9ce97112744e",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-bc43d3da-69f0-4c78-9e8d-5cb43f28c846",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-8a1ac779-e8d8-4f30-bec5-4d925c247ca7",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-36b37afb-c2dd-4e02-825a-6d9ae5330b0f",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "聿日箋秋",
+          "url": "https://gamerch.com/bang-dream-on/993739",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "聿日箋秋",
+          "url": "https://appmedia.jp/bang-dream-on/80427928",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 25
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "聿日箋秋",
+          "url": "https://wikiwiki.jp/on_database/%E8%81%BF%E6%97%A5%E7%AE%8B%E7%A7%8B%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 16
+        },
+        "wikilist": {
+          "title": "聿日箋秋",
+          "url": "https://wikiwiki.jp/on_database/%E8%81%BF%E6%97%A5%E7%AE%8B%E7%A7%8B%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-4831849d-22bb-410e-bcce-71af88d23b19",
+      "title": "証命讃歌",
+      "aliases": [
+        "証明讃歌"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-39114bda-6a05-4d7a-b521-3476808ae4f4",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-b5d6fb46-db4d-476c-9696-3c65ef70018f",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-bbabad78-c091-4fac-976e-4fef6ab584a4",
+          "difficulty": "HARD",
+          "level": 22,
+          "status": "active"
+        },
+        {
+          "id": "chart-96bf27aa-9e78-4687-94d5-ad5c31dc3c52",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "証命讃歌",
+          "url": "https://gamerch.com/bang-dream-on/993691",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 22,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "証明讃歌",
+          "url": "https://appmedia.jp/bang-dream-on/80427934",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 22,
+            "EXPERT": 26
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "証命讃歌",
+          "url": "https://wikiwiki.jp/on_database/%E8%A8%BC%E5%91%BD%E8%AE%83%E6%AD%8C%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 17
+        },
+        "wikilist": {
+          "title": "証命讃歌",
+          "url": "https://wikiwiki.jp/on_database/%E8%A8%BC%E5%91%BD%E8%AE%83%E6%AD%8C%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 22,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-e91d9aeb-3a10-4423-9fd5-548e3caf12ef",
+      "title": "往欄印",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-4a665703-fdda-46ca-a001-c0199db636d8",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-0e6ebff7-96d1-44c7-8572-124d038164c3",
+          "difficulty": "NORMAL",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-976e3cf5-e0d0-4b8d-9551-ceec3c8348e2",
+          "difficulty": "HARD",
+          "level": 23,
+          "status": "active"
+        },
+        {
+          "id": "chart-b4b3198a-121d-4640-b5ff-1e4cb650f6ee",
+          "difficulty": "EXPERT",
+          "level": 28,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "往欄印",
+          "url": "https://gamerch.com/bang-dream-on/1016782",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 15,
+            "HARD": 23,
+            "EXPERT": 28
+          }
+        },
+        "appmedia": {
+          "title": "往欄印",
+          "url": "https://appmedia.jp/bang-dream-on/80427931",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 15,
+            "HARD": 23,
+            "EXPERT": 28
+          },
+          "band": "MyGO!!!!!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "往欄印",
+          "url": "https://wikiwiki.jp/on_database/%E5%BE%80%E6%AC%84%E5%8D%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 18
+        },
+        "wikilist": {
+          "title": "往欄印",
+          "url": "https://wikiwiki.jp/on_database/%E5%BE%80%E6%AC%84%E5%8D%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 15,
+            "HARD": 23,
+            "EXPERT": 28
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-6fdcb7ec-4c05-4b99-8f5f-b28bb700b268",
+      "title": "ないものねだり",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-ed9f66c6-b8ac-48fd-93e3-810edd276989",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-2c0b86a3-2110-40d8-ba7c-30dcae1dc004",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-15806efa-d3c3-4501-af2c-6167ec50d638",
+          "difficulty": "HARD",
+          "level": 21,
+          "status": "active"
+        },
+        {
+          "id": "chart-3898c61f-57d5-4073-b9c9-7dea5674404c",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "ないものねだり",
+          "url": "https://gamerch.com/bang-dream-on/993618",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "ないものねだり",
+          "url": "https://appmedia.jp/bang-dream-on/80427937",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 25
+          },
+          "band": "MyGO!!!!!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "ないものねだり",
+          "url": "https://wikiwiki.jp/on_database/%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%E3%81%AD%E3%81%A0%E3%82%8A%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 19
+        },
+        "wikilist": {
+          "title": "ないものねだり",
+          "url": "https://wikiwiki.jp/on_database/%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%E3%81%AD%E3%81%A0%E3%82%8A%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-06c2d362-047f-4bb6-ab77-fddcf7824247",
+      "title": "シャルル",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-1e5c976b-21a0-40ee-b895-612e8fdf899b",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-204f9407-0bae-49d5-be13-6c424ebf749b",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-76fa3695-1d9d-45d9-8a71-0589a53aadbc",
+          "difficulty": "HARD",
+          "level": 16,
+          "status": "active"
+        },
+        {
+          "id": "chart-d35aefcc-d0fa-4b79-ad4c-f8663280a888",
+          "difficulty": "EXPERT",
+          "level": 21,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "シャルル",
+          "url": "https://gamerch.com/bang-dream-on/1016813",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 16,
+            "EXPERT": 21
+          }
+        },
+        "appmedia": {
+          "title": "シャルル",
+          "url": "https://appmedia.jp/bang-dream-on/80427943",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 16,
+            "EXPERT": 21
+          },
+          "band": "MyGO!!!!!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "シャルル",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 20
+        },
+        "wikilist": {
+          "title": "シャルル",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 16,
+            "EXPERT": 21
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "sample-song-001",
+      "title": "青春コンプレックス",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-5375fdfb-c14a-43b4-a16e-8d3750532f5c",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-597b3cff-92db-46ea-b7a0-21bbe6ad7f65",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-4a444bd1-f0a7-4385-88a1-38173abe2365",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "sample-chart-001",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "青春コンプレックス",
+          "url": "https://gamerch.com/bang-dream-on/1016814",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "青春コンプレックス",
+          "url": "https://appmedia.jp/bang-dream-on/80427940",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "band": "MyGO!!!!!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "青春コンプレックス",
+          "url": "https://wikiwiki.jp/on_database/%E9%9D%92%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 21
+        },
+        "wikilist": {
+          "title": "青春コンプレックス",
+          "url": "https://wikiwiki.jp/on_database/%E9%9D%92%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-03d67c4d-09d0-45c4-bc6f-1b84692618d4",
+      "title": "ホワイトノイズ",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-62b700b2-0db8-432d-8537-6c6de4122faa",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-43ed2db3-0735-4cbb-9122-e196ee8980e0",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-9ea2bf8e-6f96-48d4-bbb4-887380eaae7c",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-896d4d90-c3bc-46c8-a473-d13240dbe94a",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "ホワイトノイズ",
+          "url": "https://gamerch.com/bang-dream-on/1016815",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "ホワイトノイズ",
+          "url": "https://appmedia.jp/bang-dream-on/80427946",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          },
+          "band": "MyGO!!!!!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "ホワイトノイズ",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%8E%E3%82%A4%E3%82%BA%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 22
+        },
+        "wikilist": {
+          "title": "ホワイトノイズ",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%8E%E3%82%A4%E3%82%BA%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-d39ca260-60bf-4c3a-91d9-3bd32ee67da2",
+      "title": "Ave Mujica",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-c09d8a07-4d77-4839-9a41-5cf39e5b340b",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-d55779c7-a7ea-4e19-b69c-8fe6b14a43f1",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-18f2e623-d766-47d3-90ae-73f4793e2b2b",
+          "difficulty": "HARD",
+          "level": 21,
+          "status": "active"
+        },
+        {
+          "id": "chart-e0f5b6c1-4d1b-4a8d-95fb-43c83d6abc24",
+          "difficulty": "EXPERT",
+          "level": 27,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Ave Mujica",
+          "url": "https://gamerch.com/bang-dream-on/993677",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 27
+          }
+        },
+        "appmedia": {
+          "title": "Ave Mujica",
+          "url": "https://appmedia.jp/bang-dream-on/80427949",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 27
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Ave Mujica",
+          "url": "https://wikiwiki.jp/on_database/Ave%20Mujica%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 23
+        },
+        "wikilist": {
+          "title": "Ave Mujica",
+          "url": "https://wikiwiki.jp/on_database/Ave%20Mujica%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 27
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-26a347e2-3078-4aca-a7d4-c9cd37737fd8",
+      "title": "KiLLKiSS",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-c6410228-a431-494e-b046-f57cbe236613",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-2f471779-f06a-4475-b03a-cd2a6331fa96",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-77f9da15-35c3-4547-ac2d-f36afcd86565",
+          "difficulty": "HARD",
+          "level": 21,
+          "status": "active"
+        },
+        {
+          "id": "chart-a515114a-c90d-42a0-95fd-dbb41b2efc8a",
+          "difficulty": "EXPERT",
+          "level": 28,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "KiLLKiSS",
+          "url": "https://gamerch.com/bang-dream-on/993688",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 28
+          }
+        },
+        "appmedia": {
+          "title": "KiLLKiSS",
+          "url": "https://appmedia.jp/bang-dream-on/80427952",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 28
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "KiLLKiSS",
+          "url": "https://wikiwiki.jp/on_database/KiLLKiSS%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 24
+        },
+        "wikilist": {
+          "title": "KiLLKiSS",
+          "url": "https://wikiwiki.jp/on_database/KiLLKiSS%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 28
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-e749948f-06d3-4faa-838e-4abf6d3df728",
+      "title": "Imprisoned Ⅻ",
+      "aliases": [
+        "Imprisoned XII"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-a9ecc2c1-30b3-4428-8644-4feb748d4f0a",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-98032265-de5b-4ecc-850c-9c49388383e5",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-9a673449-2d62-4247-b436-057fc36c426f",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-e9fea4bc-5f9b-483b-b8ff-3ff3920e7ad6",
+          "difficulty": "EXPERT",
+          "level": 22,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Imprisoned XII",
+          "url": "https://gamerch.com/bang-dream-on/993687",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 22
+          }
+        },
+        "appmedia": {
+          "title": "Imprisoned XII",
+          "url": "https://appmedia.jp/bang-dream-on/80427955",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 22
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Imprisoned Ⅻ",
+          "url": "https://wikiwiki.jp/on_database/Imprisoned%20%E2%85%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 25
+        },
+        "wikilist": {
+          "title": "Imprisoned Ⅻ",
+          "url": "https://wikiwiki.jp/on_database/Imprisoned%20%E2%85%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 22
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-eea9c4c7-ec89-4b3a-ad03-c3a3470d40e6",
+      "title": "Crucifix Ⅹ",
+      "aliases": [
+        "Crucifix X"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-aadf95bf-6a5b-4f48-8666-44dde55de6b5",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-b6856c2d-5a59-4476-bd34-a3fd98dfa267",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-4657907a-d966-4549-9982-bad720fd00a4",
+          "difficulty": "HARD",
+          "level": 16,
+          "status": "active"
+        },
+        {
+          "id": "chart-8fd6d474-3c77-4002-ae49-31347d191e29",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Crucifix X",
+          "url": "https://gamerch.com/bang-dream-on/993686",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 16,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "Crucifix X",
+          "url": "https://appmedia.jp/bang-dream-on/80427958",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 16,
+            "EXPERT": 23
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Crucifix Ⅹ",
+          "url": "https://wikiwiki.jp/on_database/Crucifix%20%E2%85%A9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 26
+        },
+        "wikilist": {
+          "title": "Crucifix Ⅹ",
+          "url": "https://wikiwiki.jp/on_database/Crucifix%20%E2%85%A9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 16,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-37181ead-e00d-4219-9b3f-54aaebec4009",
+      "title": "八芒星ダンス",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-35e219a2-3820-43cd-9e52-302f1e59b55c",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-ce7363a9-cd94-46a4-9d95-9e81ed7b75c0",
+          "difficulty": "NORMAL",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-403b050b-edfb-4519-9cca-1cc10cfebc3a",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-e999d04d-fce9-45a4-b2c9-92777e3be3ce",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "八芒星ダンス",
+          "url": "https://gamerch.com/bang-dream-on/993685",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 17,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "八芒星ダンス",
+          "url": "https://appmedia.jp/bang-dream-on/80427961",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 17,
+            "EXPERT": 26
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "八芒星ダンス",
+          "url": "https://wikiwiki.jp/on_database/%E5%85%AB%E8%8A%92%E6%98%9F%E3%83%80%E3%83%B3%E3%82%B9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 27
+        },
+        "wikilist": {
+          "title": "八芒星ダンス",
+          "url": "https://wikiwiki.jp/on_database/%E5%85%AB%E8%8A%92%E6%98%9F%E3%83%80%E3%83%B3%E3%82%B9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 17,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-b9c6daf7-c667-4721-8e96-897ff8ccca14",
+      "title": "顔",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-76464d73-e8ee-45a0-8227-2003412e3c93",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-33056438-cc51-4bd2-a269-fcdb494c9ef0",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-d3660a6a-8040-4c22-a16c-1eeef3e89630",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-b8bab3b4-eabf-4b78-8396-6a2acac62eae",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "顔",
+          "url": "https://gamerch.com/bang-dream-on/993683",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "顔",
+          "url": "https://appmedia.jp/bang-dream-on/80427964",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "顔",
+          "url": "https://wikiwiki.jp/on_database/%E9%A1%94%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 28
+        },
+        "wikilist": {
+          "title": "顔",
+          "url": "https://wikiwiki.jp/on_database/%E9%A1%94%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-8207af36-39f8-4a32-b7d3-1e8841e5a489",
+      "title": "天球(そら)のMúsica",
+      "aliases": [
+        "天球(そら)のMusica"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-f0620bab-8f88-4451-884c-d6ff207d9af5",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-a23db8dd-5b99-4a21-90b0-4beb4f9fe3c9",
+          "difficulty": "NORMAL",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-cf15dafe-f473-42a2-9a7d-0e76901cc0fb",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-c5f2382c-ff6c-4c35-b90d-18ba1c8d48e0",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "天球(そら)のMúsica",
+          "url": "https://gamerch.com/bang-dream-on/993682",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 18,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "天球(そら)のMusica",
+          "url": "https://appmedia.jp/bang-dream-on/80427967",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "天球(そら)のMúsica",
+          "url": "https://wikiwiki.jp/on_database/%E5%A4%A9%E7%90%83%28%E3%81%9D%E3%82%89%29%E3%81%AEM%C3%BAsica%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 29
+        },
+        "wikilist": {
+          "title": "天球(そら)のMúsica",
+          "url": "https://wikiwiki.jp/on_database/%E5%A4%A9%E7%90%83%28%E3%81%9D%E3%82%89%29%E3%81%AEM%C3%BAsica%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-9ebb431d-2bd1-4565-a7f4-1843b39c5837",
+      "title": "Symbol I：🜂",
+      "aliases": [
+        "Symbol I : △",
+        "Symbol Ⅰ:△",
+        "Symbol Ⅰ：△"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-cc5c7666-9230-4845-9dee-6c2e83131c3a",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-bfd132e2-1d7b-4924-80d2-7eb8623d22d0",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-74b897e3-02cb-400e-821e-a9a50d1042f3",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-805935fb-bd62-4a4a-abe3-8d12af77e42e",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Symbol I：🜂",
+          "url": "https://gamerch.com/bang-dream-on/1016800",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "Symbol I : △",
+          "url": "https://appmedia.jp/bang-dream-on/80427970",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Symbol Ⅰ:△",
+          "url": "https://wikiwiki.jp/on_database/Symbol%20%E2%85%A0%EF%BC%9A%E2%96%B3%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 30
+        },
+        "wikilist": {
+          "title": "Symbol Ⅰ：△",
+          "url": "https://wikiwiki.jp/on_database/Symbol%20%E2%85%A0%EF%BC%9A%E2%96%B3%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-57396d5c-0f76-4556-ac41-06cdf6995adf",
+      "title": "Symbol II：🜁",
+      "aliases": [
+        "Symbol II : △",
+        "Symbol Ⅱ:🜁"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-321d5853-09f9-419a-96fb-134ec62d871f",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-7be822fe-1e56-4c5c-8cf5-8a5b2f3c5e39",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-5810201a-018d-4c0c-81ed-f4aaca6b4394",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-0eb0bc81-7c86-4461-a291-682dfb75adbe",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Symbol II：🜁",
+          "url": "https://gamerch.com/bang-dream-on/1016783",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 20,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "Symbol II : △",
+          "url": "https://appmedia.jp/bang-dream-on/80427973",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Symbol Ⅱ:🜁",
+          "url": "https://wikiwiki.jp/on_database/Symbol%20%E2%85%A1%EF%BC%9A%E2%96%B3%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 31
+        },
+        "wikilist": {
+          "title": "Symbol Ⅱ:🜁",
+          "url": "https://wikiwiki.jp/on_database/Symbol%20%E2%85%A1%EF%BC%9A%E2%96%B3%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-5b27c2d4-2355-4b28-86bf-56d8f0ff3402",
+      "title": "Symbol III：🜄",
+      "aliases": [
+        "Symbol III : ▽",
+        "Symbol Ⅲ:▽"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-d5c58ff9-7971-4573-8f31-1462e4563df7",
+          "difficulty": "EASY",
+          "level": 5,
+          "status": "active"
+        },
+        {
+          "id": "chart-e08c3fbc-43bc-43d6-afb2-1935c08eea50",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "status": "active"
+        },
+        {
+          "id": "chart-ae30c188-464f-4583-b636-37e2e68748ab",
+          "difficulty": "HARD",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-62f7ebf1-c6e0-4913-9eb9-4b8daf587e8b",
+          "difficulty": "EXPERT",
+          "level": 21,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Symbol III：🜄",
+          "url": "https://gamerch.com/bang-dream-on/1016784",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 9,
+            "HARD": 15,
+            "EXPERT": 21
+          }
+        },
+        "appmedia": {
+          "title": "Symbol III : ▽",
+          "url": "https://appmedia.jp/bang-dream-on/80427976",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 9,
+            "HARD": 15,
+            "EXPERT": 21
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Symbol Ⅲ:▽",
+          "url": "https://wikiwiki.jp/on_database/Symbol%20%E2%85%A2%EF%BC%9A%E2%96%BD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 32
+        },
+        "wikilist": {
+          "title": "Symbol Ⅲ:▽",
+          "url": "https://wikiwiki.jp/on_database/Symbol%20%E2%85%A2%EF%BC%9A%E2%96%BD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 9,
+            "HARD": 15,
+            "EXPERT": 21
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-34464c37-27d1-4a1d-96a7-ed42fce702a4",
+      "title": "Symbol IV：🜃",
+      "aliases": [
+        "Symbol IV : ▽",
+        "Symbol Ⅳ:🜃"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-b06fa237-0f26-480c-b8e3-46454c4448ba",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-d53ff531-29ae-463a-a232-362d5240165b",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-d3d7a7e7-b6ad-42ae-8035-156042bb3968",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-986b04bb-d1c4-41f2-ac24-b9d4a3d9f506",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Symbol IV：🜃",
+          "url": "https://gamerch.com/bang-dream-on/1016785",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "Symbol IV : ▽",
+          "url": "https://appmedia.jp/bang-dream-on/80427979",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Symbol Ⅳ:🜃",
+          "url": "https://wikiwiki.jp/on_database/Symbol%20%E2%85%A3%EF%BC%9A%E2%96%BD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 33
+        },
+        "wikilist": {
+          "title": "Symbol Ⅳ:🜃",
+          "url": "https://wikiwiki.jp/on_database/Symbol%20%E2%85%A3%EF%BC%9A%E2%96%BD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-7f10ccd5-c265-42f4-92b3-3e050d01e507",
+      "title": "Ether",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-4ec64dae-1429-46c2-a954-f88183903f0a",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-87b329a8-428c-4208-ba8a-4cd93b4c47c6",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-08f47f11-1256-47a1-8a5f-cc8324d86b7f",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-92720008-422e-4010-a6a7-61e5895f3f26",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Ether",
+          "url": "https://gamerch.com/bang-dream-on/1016801",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 18,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "Ether",
+          "url": "https://appmedia.jp/bang-dream-on/80427982",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 18,
+            "EXPERT": 26
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Ether",
+          "url": "https://wikiwiki.jp/on_database/Ether%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 34
+        },
+        "wikilist": {
+          "title": "Ether",
+          "url": "https://wikiwiki.jp/on_database/Ether%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 11,
+            "HARD": 18,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-629b6f04-8298-48e1-8e3c-4ebd4d82dfad",
+      "title": "黒のバースデイ",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-f575d526-4f1d-4274-97b8-d08478954fd0",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-0b523c82-cca9-42d3-982a-f5022433c41a",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-68d1196c-09c5-4b44-954f-4e5af9128fb9",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-0f5afdfb-3606-4d70-9bbd-a30a4303599e",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "黒のバースデイ",
+          "url": "https://gamerch.com/bang-dream-on/993681",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "黒のバースデイ",
+          "url": "https://appmedia.jp/bang-dream-on/80427985",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 26
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "黒のバースデイ",
+          "url": "https://wikiwiki.jp/on_database/%E9%BB%92%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B9%E3%83%87%E3%82%A4%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 35
+        },
+        "wikilist": {
+          "title": "黒のバースデイ",
+          "url": "https://wikiwiki.jp/on_database/%E9%BB%92%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B9%E3%83%87%E3%82%A4%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-41e7a434-f968-4656-aae5-430360242965",
+      "title": "Choir 'S' Choir",
+      "aliases": [
+        "Choir ‘S’ Choir"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-26db550d-7f67-4996-8fb6-70dd71cb46b4",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-e5a605f2-5625-4c7b-8d5d-c666f7e58f3f",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-89ec77d3-d889-44b4-8fc1-8f1c796be9f2",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-0ceffa1d-fc43-4b5e-b42e-389645728f2c",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Choir ‘S’ Choir",
+          "url": "https://gamerch.com/bang-dream-on/993731",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "Choir ‘S’ Choir",
+          "url": "https://appmedia.jp/bang-dream-on/80427988",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Choir 'S' Choir",
+          "url": "https://wikiwiki.jp/on_database/Choir%20%27S%27%20Choir%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 36
+        },
+        "wikilist": {
+          "title": "Choir 'S' Choir",
+          "url": "https://wikiwiki.jp/on_database/Choir%20%27S%27%20Choir%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-e1f488fc-65a1-402a-914b-e97a963fd63b",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "aliases": [
+        "Mas？uerade Rhapsody Re？uest"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-3d6cd64a-6597-48d4-aca9-2438ac2f9b8a",
+          "difficulty": "EASY",
+          "level": 10,
+          "status": "active"
+        },
+        {
+          "id": "chart-72521b0d-c990-4bf6-8b59-fabb313277a0",
+          "difficulty": "NORMAL",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-a313a0b6-f568-4684-8af3-e392aba754e9",
+          "difficulty": "HARD",
+          "level": 22,
+          "status": "active"
+        },
+        {
+          "id": "chart-5407f533-4a23-471a-811a-93140a63c49e",
+          "difficulty": "EXPERT",
+          "level": 28,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Mas？uerade Rhapsody Re？uest",
+          "url": "https://gamerch.com/bang-dream-on/993729",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 15,
+            "HARD": 22,
+            "EXPERT": 28
+          }
+        },
+        "appmedia": {
+          "title": "Mas?uerade Rhapsody Re?uest",
+          "url": "https://appmedia.jp/bang-dream-on/80427991",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 15,
+            "HARD": 22,
+            "EXPERT": 28
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Mas?uerade Rhapsody Re?uest",
+          "url": "https://wikiwiki.jp/on_database/Mas%3Fuerade%20Rhapsody%20Re%3Fuest%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 37
+        },
+        "wikilist": {
+          "title": "Mas?uerade Rhapsody Re?uest",
+          "url": "https://wikiwiki.jp/on_database/Mas%3Fuerade%20Rhapsody%20Re%3Fuest%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 15,
+            "HARD": 22,
+            "EXPERT": 28
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-78c0302a-5778-4a2c-bf58-dc9939fafb80",
+      "title": "碧い瞳の中に",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-8a9e7766-a0e0-4b31-b626-3f35655f44d5",
+          "difficulty": "EASY",
+          "level": 5,
+          "status": "active"
+        },
+        {
+          "id": "chart-1a96c60c-a33b-4a36-94f5-e4b0ae181ecb",
+          "difficulty": "NORMAL",
+          "level": 9,
+          "status": "active"
+        },
+        {
+          "id": "chart-f59ddad4-30f2-4deb-813a-cceeffa2513a",
+          "difficulty": "HARD",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-2ed27390-a822-4166-a0c7-b888441a502a",
+          "difficulty": "EXPERT",
+          "level": 21,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "碧い瞳の中に",
+          "url": "https://gamerch.com/bang-dream-on/1016786",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 9,
+            "HARD": 15,
+            "EXPERT": 21
+          }
+        },
+        "appmedia": {
+          "title": "碧い瞳の中に",
+          "url": "https://appmedia.jp/bang-dream-on/80427994",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 9,
+            "HARD": 15,
+            "EXPERT": 21
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "碧い瞳の中に",
+          "url": "https://wikiwiki.jp/on_database/%E7%A2%A7%E3%81%84%E7%9E%B3%E3%81%AE%E4%B8%AD%E3%81%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 38
+        },
+        "wikilist": {
+          "title": "碧い瞳の中に",
+          "url": "https://wikiwiki.jp/on_database/%E7%A2%A7%E3%81%84%E7%9E%B3%E3%81%AE%E4%B8%AD%E3%81%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 9,
+            "HARD": 15,
+            "EXPERT": 21
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-8686f128-1c61-409b-ab12-90f81a59f45a",
+      "title": "The Whole Blue World",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-e7279aae-4037-41d2-94cf-b7d45c9e9c07",
+          "difficulty": "EASY",
+          "level": 10,
+          "status": "active"
+        },
+        {
+          "id": "chart-432bcaee-c51c-472f-9a3c-921b2f842e13",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-d9788941-4bb5-4477-9ad2-93985c9c41d0",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-c396bda7-1187-4bad-87aa-730299f2d097",
+          "difficulty": "EXPERT",
+          "level": 27,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "The Whole Blue World",
+          "url": "https://gamerch.com/bang-dream-on/1016787",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 27
+          }
+        },
+        "appmedia": {
+          "title": "The Whole Blue World",
+          "url": "https://appmedia.jp/bang-dream-on/80427997",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 27
+          },
+          "band": "Ave Mujica",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "The Whole Blue World",
+          "url": "https://wikiwiki.jp/on_database/The%20Whole%20Blue%20World%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 39
+        },
+        "wikilist": {
+          "title": "The Whole Blue World",
+          "url": "https://wikiwiki.jp/on_database/The%20Whole%20Blue%20World%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 27
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-eccb7d18-b5fb-4f56-a470-ad395e7b9ae6",
+      "title": "堕天",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-d6e75762-651a-4bc8-b4dc-49f3f211a234",
+          "difficulty": "EASY",
+          "level": 9,
+          "status": "active"
+        },
+        {
+          "id": "chart-b2f25938-a744-4922-bb03-bc485011201c",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-79528ca0-76ca-4e32-b763-bd12c88b657c",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-c400fb7a-c9ab-4135-843b-98d0585ce471",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "堕天",
+          "url": "https://gamerch.com/bang-dream-on/993726",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "堕天",
+          "url": "https://appmedia.jp/bang-dream-on/80428000",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 28,
+            "EXPERT": 26
+          },
+          "band": "Ave Mujica",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "堕天",
+          "url": "https://wikiwiki.jp/on_database/%E5%A0%95%E5%A4%A9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 40
+        },
+        "wikilist": {
+          "title": "堕天",
+          "url": "https://wikiwiki.jp/on_database/%E5%A0%95%E5%A4%A9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 18,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-d5bcb926-4312-4d2b-9f46-5510fcce9ac4",
+      "title": "残酷な天使のテーゼ",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-670a0a9c-98f6-4c90-b509-deccfb46f7a9",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-bc124f04-d12e-46a8-9202-9fcace4f6a17",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-a7d80370-83ed-47f3-8072-d7c12f3d7476",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-6d936652-9968-4eda-86d8-4d62fa90a966",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "残酷な天使のテーゼ",
+          "url": "https://gamerch.com/bang-dream-on/1016816",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "残酷な天使のテーゼ",
+          "url": "https://appmedia.jp/bang-dream-on/80428003",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "band": "Ave Mujica",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "残酷な天使のテーゼ",
+          "url": "https://wikiwiki.jp/on_database/%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 41
+        },
+        "wikilist": {
+          "title": "残酷な天使のテーゼ",
+          "url": "https://wikiwiki.jp/on_database/%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-57140c74-4db4-44bb-9128-004c15b9b2a2",
+      "title": "暗黒天国",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-023c2d97-6636-4ab0-afc5-0d7ce5d77ab0",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-e283e400-272e-4516-8a90-a28326560fd9",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-47bfbca7-2ecb-468f-bcff-bdf240b0efeb",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-4035f699-7df0-4fbe-8bd2-2a1d3aed19d7",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "暗黒天国",
+          "url": "https://gamerch.com/bang-dream-on/1016817",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 20,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "暗黒天国",
+          "url": "https://appmedia.jp/bang-dream-on/80428006",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "band": "Ave Mujica",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "暗黒天国",
+          "url": "https://wikiwiki.jp/on_database/%E6%9A%97%E9%BB%92%E5%A4%A9%E5%9B%BD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 42
+        },
+        "wikilist": {
+          "title": "暗黒天国",
+          "url": "https://wikiwiki.jp/on_database/%E6%9A%97%E9%BB%92%E5%A4%A9%E5%9B%BD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 20,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-9df4c1eb-4a44-4be3-983a-2b2d37c38e2d",
+      "title": "KINGS",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-167950ef-0015-41ab-9dd5-34ce9bd31fbd",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-454418a7-f6a5-4326-86c8-245fb45be151",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-f5e167cf-4bf6-483e-8dcc-102c631dbb84",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-7d1ad5af-19ea-48cc-b971-b8ac2615b8ec",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "KINGS",
+          "url": "https://gamerch.com/bang-dream-on/1016818",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "KINGS",
+          "url": "https://appmedia.jp/bang-dream-on/80428009",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "band": "Ave Mujica",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "KINGS",
+          "url": "https://wikiwiki.jp/on_database/KINGS%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 43
+        },
+        "wikilist": {
+          "title": "KINGS",
+          "url": "https://wikiwiki.jp/on_database/KINGS%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-468c022b-3c81-4c8f-8c87-48ba30aa3981",
+      "title": "†animaるパーティ†開催中†",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-c00fcf76-af35-40cd-94dc-ff5c55847644",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-818f99ab-8cac-4bb6-9159-09c57d3e5374",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-cc3f44d1-45f9-4114-a817-f5d7ecbb6e60",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-1662a4ed-9012-4960-9cee-987761cbb3fb",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "†animaるパーティ†開催中†",
+          "url": "https://gamerch.com/bang-dream-on/993725",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "†animaるパーティ†開催中†",
+          "url": "https://appmedia.jp/bang-dream-on/80428012",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "†animaるパーティ†開催中†",
+          "url": "https://wikiwiki.jp/on_database/%E2%80%A0anima%E3%82%8B%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E2%80%A0%E9%96%8B%E5%82%AC%E4%B8%AD%E2%80%A0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 44
+        },
+        "wikilist": {
+          "title": "†animaるパーティ†開催中†",
+          "url": "https://wikiwiki.jp/on_database/%E2%80%A0anima%E3%82%8B%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E2%80%A0%E9%96%8B%E5%82%AC%E4%B8%AD%E2%80%A0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-16854ed6-ea02-4d13-88a8-dbdd0e6cbbfc",
+      "title": "エンプティパペット",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-b42f069c-3849-4c1a-80dc-c270d403b945",
+          "difficulty": "EASY",
+          "level": 9,
+          "status": "active"
+        },
+        {
+          "id": "chart-f2aeb74f-441b-4454-afce-1f8927c38d27",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-f6125fd9-2623-44a4-a52f-be772d4ce93a",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-5b61c647-dffc-41b4-8d7e-55e7f6bcdc66",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "エンプティパペット",
+          "url": "https://gamerch.com/bang-dream-on/993722",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 18,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "エンプティパペット",
+          "url": "https://appmedia.jp/bang-dream-on/80428015",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 18,
+            "EXPERT": 26
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "エンプティパペット",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%A8%E3%83%B3%E3%83%97%E3%83%86%E3%82%A3%E3%83%91%E3%83%9A%E3%83%83%E3%83%88%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 45
+        },
+        "wikilist": {
+          "title": "エンプティパペット",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%A8%E3%83%B3%E3%83%97%E3%83%86%E3%82%A3%E3%83%91%E3%83%9A%E3%83%83%E3%83%88%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 18,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-98d28612-6ec5-4e04-8741-92f608a22ac4",
+      "title": "限界現実サバイブ天使",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-fecf7ff1-f584-40b8-bf32-6a7311739b18",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-7f853d40-b587-4fb5-b1e1-1d5b11348b1f",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-886ebf81-38e0-43c2-a655-dfc7750c749e",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-957c0907-6486-4275-b36c-1fa07ec7bbf2",
+          "difficulty": "EXPERT",
+          "level": 27,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "限界現実サバイブ天使",
+          "url": "https://gamerch.com/bang-dream-on/993720",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 27
+          }
+        },
+        "appmedia": {
+          "title": "限界現実サバイブ天使",
+          "url": "https://appmedia.jp/bang-dream-on/80428018",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 27
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "限界現実サバイブ天使",
+          "url": "https://wikiwiki.jp/on_database/%E9%99%90%E7%95%8C%E7%8F%BE%E5%AE%9F%E3%82%B5%E3%83%90%E3%82%A4%E3%83%96%E5%A4%A9%E4%BD%BF%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 46
+        },
+        "wikilist": {
+          "title": "限界現実サバイブ天使",
+          "url": "https://wikiwiki.jp/on_database/%E9%99%90%E7%95%8C%E7%8F%BE%E5%AE%9F%E3%82%B5%E3%83%90%E3%82%A4%E3%83%96%E5%A4%A9%E4%BD%BF%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 27
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-d4b7d4e4-12d4-4662-866a-044c4054791f",
+      "title": "ビッグマウス",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-bcd9aec3-7787-46ad-a729-3f67b8546095",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-c7fdd750-f8de-41cf-b195-f4a23998b253",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-e3c4791b-0ad9-4166-ab9e-89b36919f3da",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-493ac4f9-bc10-45a6-a40c-5d4ac0b621d2",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "ビッグマウス",
+          "url": "https://gamerch.com/bang-dream-on/993719",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "ビッグマウス",
+          "url": "https://appmedia.jp/bang-dream-on/80428021",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "ビッグマウス",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%93%E3%83%83%E3%82%B0%E3%83%9E%E3%82%A6%E3%82%B9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 47
+        },
+        "wikilist": {
+          "title": "ビッグマウス",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%93%E3%83%83%E3%82%B0%E3%83%9E%E3%82%A6%E3%82%B9%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-2fed6e92-92f1-4ba0-88b8-f6482301f4be",
+      "title": "夢現妄想世界",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-09963156-b4bf-48f2-91b5-a8de432a2c75",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-6b422b3b-b26d-4238-9b05-05cc5b72bde2",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-658ce0d8-14c8-4302-90be-75fcc24ef31c",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-665d2461-7e1e-4ef4-91e8-6e47d68a1bad",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "夢現妄想世界",
+          "url": "https://gamerch.com/bang-dream-on/993743",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "夢現妄想世界",
+          "url": "https://appmedia.jp/bang-dream-on/80428024",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "夢現妄想世界",
+          "url": "https://wikiwiki.jp/on_database/%E5%A4%A2%E7%8F%BE%E5%A6%84%E6%83%B3%E4%B8%96%E7%95%8C%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 48
+        },
+        "wikilist": {
+          "title": "夢現妄想世界",
+          "url": "https://wikiwiki.jp/on_database/%E5%A4%A2%E7%8F%BE%E5%A6%84%E6%83%B3%E4%B8%96%E7%95%8C%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-975e4dcd-3588-45c8-af20-09b56300c4da",
+      "title": "コハク",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-b12e20b7-501f-49a1-869c-38792e36204f",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-9403f306-b681-4f90-97c6-ecf21aaaaff6",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-d1e7d61d-1fd7-4c6d-9616-4781cfff227a",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-e279e32a-8f1a-45d5-8867-f0780d580fbf",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "コハク",
+          "url": "https://gamerch.com/bang-dream-on/993718",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 14,
+            "HARD": 19,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "コハク",
+          "url": "https://appmedia.jp/bang-dream-on/80428027",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 14,
+            "HARD": 19,
+            "EXPERT": 25
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "コハク",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%B3%E3%83%8F%E3%82%AF%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 49
+        },
+        "wikilist": {
+          "title": "コハク",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%B3%E3%83%8F%E3%82%AF%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 14,
+            "HARD": 19,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-4658d02d-07bd-493d-a24a-dea8e2735adf",
+      "title": "真夜中遊園地",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-bd84cf56-814f-41c1-922d-903b97c24435",
+          "difficulty": "EASY",
+          "level": 9,
+          "status": "active"
+        },
+        {
+          "id": "chart-d2866b78-93c2-48fb-af7d-2710dde6893f",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-64498533-7392-4da4-88cc-ad4b1148781c",
+          "difficulty": "HARD",
+          "level": 21,
+          "status": "active"
+        },
+        {
+          "id": "chart-f7780861-a789-4a25-ad05-c72702621890",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "真夜中遊園地",
+          "url": "https://gamerch.com/bang-dream-on/1016802",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 21,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "真夜中遊園地",
+          "url": "https://appmedia.jp/bang-dream-on/80428030",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 21,
+            "EXPERT": 26
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "真夜中遊園地",
+          "url": "https://wikiwiki.jp/on_database/%E7%9C%9F%E5%A4%9C%E4%B8%AD%E9%81%8A%E5%9C%92%E5%9C%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 50
+        },
+        "wikilist": {
+          "title": "真夜中遊園地",
+          "url": "https://wikiwiki.jp/on_database/%E7%9C%9F%E5%A4%9C%E4%B8%AD%E9%81%8A%E5%9C%92%E5%9C%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 21,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-79a17a70-f419-4af3-a433-e9783c2d9d6c",
+      "title": "チューニング",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-aa071f03-9f2d-4ba4-909a-ba5e6071ff75",
+          "difficulty": "EASY",
+          "level": 5,
+          "status": "active"
+        },
+        {
+          "id": "chart-ae5fffbd-97ac-48c2-92fb-e7ea302aa6eb",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-5e21c04a-31ab-45c7-ac80-323f79b68d53",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-9435f31f-c417-40a4-a659-a31cd678d901",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "チューニング",
+          "url": "https://gamerch.com/bang-dream-on/1016803",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "チューニング",
+          "url": "https://appmedia.jp/bang-dream-on/80428033",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "チューニング",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 51
+        },
+        "wikilist": {
+          "title": "チューニング",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-d873b196-e9c5-4811-b3ee-455913faad9c",
+      "title": "超惑星Xへの旅",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-e5360825-1ebe-4874-88e2-ed9310a41766",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-bfc01f34-70bb-4f88-b0c9-3755035a96ee",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-b82ecbf9-5087-4322-9a93-d68ef6a6cc97",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-4eae8f10-d514-4915-9f12-e3f9a89ee4c5",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "超惑星Xへの旅",
+          "url": "https://gamerch.com/bang-dream-on/1016790",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "超惑星Xへの旅",
+          "url": "https://appmedia.jp/bang-dream-on/80428036",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 26
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "超惑星Xへの旅",
+          "url": "https://wikiwiki.jp/on_database/%E8%B6%85%E6%83%91%E6%98%9FX%E3%81%B8%E3%81%AE%E6%97%85%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 52
+        },
+        "wikilist": {
+          "title": "超惑星Xへの旅",
+          "url": "https://wikiwiki.jp/on_database/%E8%B6%85%E6%83%91%E6%98%9FX%E3%81%B8%E3%81%AE%E6%97%85%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 20,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-3a49cde0-f8f9-4670-b8b2-9fee2d0d0673",
+      "title": "TearJerker",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-49ec2632-fe0e-4940-be00-f8120f308ad9",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-069b1f9a-a2fe-4b64-94b5-3a2c7ca01112",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-02716a56-88f8-4be2-84a5-72df5e13a67e",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-0f591c6f-508f-46dd-bcdf-36f412292bd8",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "TearJerker",
+          "url": "https://gamerch.com/bang-dream-on/1016804",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 14,
+            "HARD": 18,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "TearJerker",
+          "url": "https://appmedia.jp/bang-dream-on/80428039",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 14,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "TearJerker",
+          "url": "https://wikiwiki.jp/on_database/TearJerker%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 53
+        },
+        "wikilist": {
+          "title": "TearJerker",
+          "url": "https://wikiwiki.jp/on_database/TearJerker%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 14,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-1163fecb-6429-40ab-8dbc-b11ee95196b8",
+      "title": "Face The Next",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-cb2735a6-70d6-4ce2-b86e-589460cdb2bd",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-4133d4c5-9bbd-4136-b902-8fd3f2a3eefa",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-60671662-65bd-40da-b9ac-4b6f6e158346",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-7edcce7d-fa41-4d39-b351-9788c002b93d",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Face The Next",
+          "url": "https://gamerch.com/bang-dream-on/1016806",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "Face The Next",
+          "url": "https://appmedia.jp/bang-dream-on/80428042",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Face The Next",
+          "url": "https://wikiwiki.jp/on_database/Face%20The%20Next%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 54
+        },
+        "wikilist": {
+          "title": "Face The Next",
+          "url": "https://wikiwiki.jp/on_database/Face%20The%20Next%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-08b642ff-0326-4b8a-86ad-dc2870515087",
+      "title": "in my words",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-77cc10a4-e6b5-4103-a8eb-fe2bbb95fe88",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-892f6aba-1297-4665-991f-a47100c76704",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-88849547-d783-4609-b116-4d924c93ae17",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-08f17537-aa7d-438d-84d7-1f11c8c0cf8e",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "in my words",
+          "url": "https://gamerch.com/bang-dream-on/1016807",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 19,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "in my words",
+          "url": "https://appmedia.jp/bang-dream-on/80428045",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 19,
+            "EXPERT": 25
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "in my words",
+          "url": "https://wikiwiki.jp/on_database/in%20my%20words%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 55
+        },
+        "wikilist": {
+          "title": "in my words",
+          "url": "https://wikiwiki.jp/on_database/in%20my%20words%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 19,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-f9d9dd9a-1f4a-4569-81af-30527203e790",
+      "title": "愛は衝動",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-05d38956-0819-4f95-88a8-c842ee9dcc03",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-b4cb00a2-adf7-4f46-8964-a40b023046d0",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-830302f9-4eaf-4adf-8c4b-d778da3efea9",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-4781fbf3-7104-40d9-a5a4-3abc604a8555",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "愛は衝動",
+          "url": "https://gamerch.com/bang-dream-on/1016808",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "愛は衝動",
+          "url": "https://appmedia.jp/bang-dream-on/80428048",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "愛は衝動",
+          "url": "https://wikiwiki.jp/on_database/%E6%84%9B%E3%81%AF%E8%A1%9D%E5%8B%95%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 56
+        },
+        "wikilist": {
+          "title": "愛は衝動",
+          "url": "https://wikiwiki.jp/on_database/%E6%84%9B%E3%81%AF%E8%A1%9D%E5%8B%95%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-dca0bf4f-0497-43b7-afdd-62a0fc2d6f04",
+      "title": "これはぼくたちの生存のあらすじ",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-21dccc71-3dac-4001-a285-7daff4964b17",
+          "difficulty": "EASY",
+          "level": 9,
+          "status": "active"
+        },
+        {
+          "id": "chart-bdaf9d7b-2ca9-415d-8b31-2dbb41e189c3",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-b343f240-2881-4237-8c1f-eb9e884943e8",
+          "difficulty": "HARD",
+          "level": 23,
+          "status": "active"
+        },
+        {
+          "id": "chart-eec722e3-66f0-4471-a6a1-53a026652e3a",
+          "difficulty": "EXPERT",
+          "level": 27,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "これはぼくたちの生存のあらすじ",
+          "url": "https://gamerch.com/bang-dream-on/1016788",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 23,
+            "EXPERT": 27
+          }
+        },
+        "appmedia": {
+          "title": "これはぼくたちの生存のあらすじ",
+          "url": "https://appmedia.jp/bang-dream-on/80428051",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 23,
+            "EXPERT": 27
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "これはぼくたちの生存のあらすじ",
+          "url": "https://wikiwiki.jp/on_database/%E3%81%93%E3%82%8C%E3%81%AF%E3%81%BC%E3%81%8F%E3%81%9F%E3%81%A1%E3%81%AE%E7%94%9F%E5%AD%98%E3%81%AE%E3%81%82%E3%82%89%E3%81%99%E3%81%98%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 57
+        },
+        "wikilist": {
+          "title": "これはぼくたちの生存のあらすじ",
+          "url": "https://wikiwiki.jp/on_database/%E3%81%93%E3%82%8C%E3%81%AF%E3%81%BC%E3%81%8F%E3%81%9F%E3%81%A1%E3%81%AE%E7%94%9F%E5%AD%98%E3%81%AE%E3%81%82%E3%82%89%E3%81%99%E3%81%98%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 23,
+            "EXPERT": 27
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-2ab5bd7c-486d-46a9-acfc-6350d0aeaa8f",
+      "title": "うちゅうのふしぎ",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-21311c49-4d1a-46d0-b655-9f8b1db4b50f",
+          "difficulty": "EASY",
+          "level": 5,
+          "status": "active"
+        },
+        {
+          "id": "chart-5bcfcc33-ffe3-4df1-8e38-fbcad9836cec",
+          "difficulty": "NORMAL",
+          "level": 10,
+          "status": "active"
+        },
+        {
+          "id": "chart-76ec3348-e617-44da-a3c2-fed18cf1e767",
+          "difficulty": "HARD",
+          "level": 16,
+          "status": "active"
+        },
+        {
+          "id": "chart-996f1272-a7e5-4c49-87c4-aa1515635988",
+          "difficulty": "EXPERT",
+          "level": 22,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "うちゅうのふしぎ",
+          "url": "https://gamerch.com/bang-dream-on/1016789",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 10,
+            "HARD": 16,
+            "EXPERT": 22
+          }
+        },
+        "appmedia": {
+          "title": "うちゅうのふしぎ",
+          "url": "https://appmedia.jp/bang-dream-on/80428054",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 10,
+            "HARD": 16,
+            "EXPERT": 22
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "うちゅうのふしぎ",
+          "url": "https://wikiwiki.jp/on_database/%E3%81%86%E3%81%A1%E3%82%85%E3%81%86%E3%81%AE%E3%81%B5%E3%81%97%E3%81%8E%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 58
+        },
+        "wikilist": {
+          "title": "うちゅうのふしぎ",
+          "url": "https://wikiwiki.jp/on_database/%E3%81%86%E3%81%A1%E3%82%85%E3%81%86%E3%81%AE%E3%81%B5%E3%81%97%E3%81%8E%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 10,
+            "HARD": 16,
+            "EXPERT": 22
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-a0ad370a-faa1-49b9-8217-8aa2b7b4b744",
+      "title": "オリオンをなぞる",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-d4069e11-eba0-4f5a-815e-4e71f341bc74",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-96d3f4f0-f774-4ae6-a65a-710fd0acdd0a",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-d82ac072-b3e9-4389-97de-1cc25c538a07",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-54ee9d85-8cd9-43c0-a720-ec7eb4661fee",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "オリオンをなぞる",
+          "url": "https://gamerch.com/bang-dream-on/1016821",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "オリオンをなぞる",
+          "url": "https://appmedia.jp/bang-dream-on/80428057",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 23
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "オリオンをなぞる",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%AA%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%92%E3%81%AA%E3%81%9E%E3%82%8B%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 59
+        },
+        "wikilist": {
+          "title": "オリオンをなぞる",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%AA%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%92%E3%81%AA%E3%81%9E%E3%82%8B%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 12,
+            "HARD": 19,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-c8c7669d-bc1e-4ae4-a85f-20372eb36463",
+      "title": "唱",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-5b363633-5718-4cce-a280-2a3f4a6442d2",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-babfeb9b-41fc-4bd0-91a3-5be75f4d8b81",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-2e301629-b46e-4d17-9597-67f3ac7d5162",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-578c79c0-60fc-4ad0-aca4-7d0a82d4c959",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "唱",
+          "url": "https://gamerch.com/bang-dream-on/1016820",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "唱",
+          "url": "https://appmedia.jp/bang-dream-on/80428060",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "唱",
+          "url": "https://wikiwiki.jp/on_database/%E5%94%B1%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 60
+        },
+        "wikilist": {
+          "title": "唱",
+          "url": "https://wikiwiki.jp/on_database/%E5%94%B1%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-1ce57e09-788f-4271-ba8e-5f4382a1a4b5",
+      "title": "UNDEAD",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-32a38d5e-1dcd-44ec-a770-4b75344b03c6",
+          "difficulty": "EASY",
+          "level": 9,
+          "status": "active"
+        },
+        {
+          "id": "chart-f48ba572-1e6e-4858-9c3e-389c6a43c177",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-71b13b87-f97d-454b-b93e-6a0fc87a4d17",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-aa351291-704e-442d-85f3-baefdd93a45c",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "UNDEAD",
+          "url": "https://gamerch.com/bang-dream-on/1016822",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "UNDEAD",
+          "url": "https://appmedia.jp/bang-dream-on/80428063",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 24
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "UNDEAD",
+          "url": "https://wikiwiki.jp/on_database/UNDEAD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 61
+        },
+        "wikilist": {
+          "title": "UNDEAD",
+          "url": "https://wikiwiki.jp/on_database/UNDEAD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "sample-song-002",
+      "title": "六兆年と一夜物語",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-4add6d51-18bb-459a-bb94-2ede14ab3b1e",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-23e06ef2-96de-4212-8de3-4a3781b6e841",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-7a868e3c-fdbf-4913-81f5-47a50104c34d",
+          "difficulty": "HARD",
+          "level": 21,
+          "status": "active"
+        },
+        {
+          "id": "sample-chart-002",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "六兆年と一夜物語",
+          "url": "https://gamerch.com/bang-dream-on/1016819",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "六兆年と一夜物語",
+          "url": "https://appmedia.jp/bang-dream-on/80428066",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 26
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "六兆年と一夜物語",
+          "url": "https://wikiwiki.jp/on_database/%E5%85%AD%E5%85%86%E5%B9%B4%E3%81%A8%E4%B8%80%E5%A4%9C%E7%89%A9%E8%AA%9E%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 62
+        },
+        "wikilist": {
+          "title": "六兆年と一夜物語",
+          "url": "https://wikiwiki.jp/on_database/%E5%85%AD%E5%85%86%E5%B9%B4%E3%81%A8%E4%B8%80%E5%A4%9C%E7%89%A9%E8%AA%9E%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-b739f3b0-705d-4a17-811d-aa0a8ea6cf2c",
+      "title": "起死開戦",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-40f3ff69-3e6b-452d-8e8f-59d7c2044ad5",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-1fb4ffe6-8cc7-45ce-8162-0d74878acb8c",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-3b9c6f64-e258-4ef0-ae99-521d1376edf7",
+          "difficulty": "HARD",
+          "level": 21,
+          "status": "active"
+        },
+        {
+          "id": "chart-09a8d2d7-8525-4f4f-a35d-e50717deecb1",
+          "difficulty": "EXPERT",
+          "level": 28,
+          "status": "active"
+        }
+      ],
+      "band": "millsage",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "起死開戦",
+          "url": "https://gamerch.com/bang-dream-on/993717",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 28
+          }
+        },
+        "appmedia": {
+          "title": "起死開戦",
+          "url": "https://appmedia.jp/bang-dream-on/80428069",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 28
+          },
+          "band": "millsage",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "起死開戦",
+          "url": "https://wikiwiki.jp/on_database/%E8%B5%B7%E6%AD%BB%E9%96%8B%E6%88%A6%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 63
+        },
+        "wikilist": {
+          "title": "起死開戦",
+          "url": "https://wikiwiki.jp/on_database/%E8%B5%B7%E6%AD%BB%E9%96%8B%E6%88%A6%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 21,
+            "EXPERT": 28
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-6abd3da9-de8b-4f4a-8549-7d9b5f3e13a0",
+      "title": "カーネーションの咲く日に",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-1bb9a9df-fc99-4123-86f4-ef6e34a98091",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-4369c064-f4fd-4672-aea6-0d4d93bbcedb",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-24f69635-0d6f-4345-a329-557e316abec4",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-4a716cc9-b71e-49b8-a690-3d0b7d4bfb5e",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "millsage",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "カーネーションの咲く日に",
+          "url": "https://gamerch.com/bang-dream-on/1016810",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "カーネーションの咲く日に",
+          "url": "https://appmedia.jp/bang-dream-on/80428072",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 26
+          },
+          "band": "millsage",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "カーネーションの咲く日に",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%AB%E3%83%BC%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E5%92%B2%E3%81%8F%E6%97%A5%E3%81%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 64
+        },
+        "wikilist": {
+          "title": "カーネーションの咲く日に",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%AB%E3%83%BC%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E5%92%B2%E3%81%8F%E6%97%A5%E3%81%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-d78ccd3f-9e8e-48d6-b80f-e1cf32880f54",
+      "title": "鳴らす",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-b99bd5b1-7cdf-40ac-bb59-44c899e9ebfe",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-204469f5-b76e-4f23-a670-a1e36b23c166",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-36c52bf2-594a-48a4-ab6d-63de64d6a2e0",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-ca9df238-b4b3-4c9b-b4cd-ccc378c75fa7",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "millsage",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "鳴らす",
+          "url": "https://gamerch.com/bang-dream-on/1016809",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "鳴らす",
+          "url": "https://appmedia.jp/bang-dream-on/80428075",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "band": "millsage",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "鳴らす",
+          "url": "https://wikiwiki.jp/on_database/%E9%B3%B4%E3%82%89%E3%81%99%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 65
+        },
+        "wikilist": {
+          "title": "鳴らす",
+          "url": "https://wikiwiki.jp/on_database/%E9%B3%B4%E3%82%89%E3%81%99%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-29fa931b-9865-46b8-9154-d1729959104c",
+      "title": "everscape",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-350a8e1a-4f55-4eff-aabe-5bcf14d4e4e9",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-6d916fc7-df2d-496d-b77a-2b14b9074071",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-c09e9dbb-8e9e-422d-84af-0e053a269d54",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-9a194f20-e5f7-44e3-8b51-0495f35d3527",
+          "difficulty": "EXPERT",
+          "level": 28,
+          "status": "active"
+        }
+      ],
+      "band": "millsage",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "everscape",
+          "url": "https://gamerch.com/bang-dream-on/1016791",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 28
+          }
+        },
+        "appmedia": {
+          "title": "everscape",
+          "url": "https://appmedia.jp/bang-dream-on/80428078",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 28
+          },
+          "band": "millsage",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "everscape",
+          "url": "https://wikiwiki.jp/on_database/everscape%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 66
+        },
+        "wikilist": {
+          "title": "everscape",
+          "url": "https://wikiwiki.jp/on_database/everscape%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 28
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-ef67c7aa-f5df-40de-b62d-965ec0fa646c",
+      "title": "ロウワー",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-80848eb7-fb72-49e5-b26b-3985ba42f29f",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-991a55e9-7cd6-4111-966c-fa9b152cd606",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-c4e58d3b-a084-445b-839b-003596a4466b",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-515aa7eb-519f-40c3-8411-6c3da434fa99",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "millsage",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "ロウワー",
+          "url": "https://gamerch.com/bang-dream-on/1016827",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "ロウワー",
+          "url": "https://appmedia.jp/bang-dream-on/80428081",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "band": "millsage",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "ロウワー",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%AD%E3%82%A6%E3%83%AF%E3%83%BC%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 67
+        },
+        "wikilist": {
+          "title": "ロウワー",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%AD%E3%82%A6%E3%83%AF%E3%83%BC%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-3e612ec3-b0d1-4f8d-b755-02b40a603e02",
+      "title": "Pretender",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-153e3871-a9e9-463a-b010-70b131dd2f01",
+          "difficulty": "EASY",
+          "level": 5,
+          "status": "active"
+        },
+        {
+          "id": "chart-de57518c-1354-4472-83ae-ea06cd544a57",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-04924a75-ad84-47e9-9357-a4d7c9b1ed7d",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-6d75918c-3b0f-4312-a851-65ebccd2cf35",
+          "difficulty": "EXPERT",
+          "level": 22,
+          "status": "active"
+        }
+      ],
+      "band": "millsage",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Pretender",
+          "url": "https://gamerch.com/bang-dream-on/1016825",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 22
+          }
+        },
+        "appmedia": {
+          "title": "Pretender",
+          "url": "https://appmedia.jp/bang-dream-on/80428084",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 22
+          },
+          "band": "millsage",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "Pretender",
+          "url": "https://wikiwiki.jp/on_database/Pretender%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 68
+        },
+        "wikilist": {
+          "title": "Pretender",
+          "url": "https://wikiwiki.jp/on_database/Pretender%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 22
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-d727f00c-06eb-43a1-8d65-a802d06ad68b",
+      "title": "青のすみか",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-491ec466-d46d-43dc-8a22-9c5b43e5edd5",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-81a44e1d-3d67-40f6-8068-a5e3b88e2439",
+          "difficulty": "NORMAL",
+          "level": 10,
+          "status": "active"
+        },
+        {
+          "id": "chart-717d8aa1-18b9-44b3-bcda-fe4ea5792f49",
+          "difficulty": "HARD",
+          "level": 16,
+          "status": "active"
+        },
+        {
+          "id": "chart-c84761ed-fcb5-46be-924f-028a4703ddf9",
+          "difficulty": "EXPERT",
+          "level": 21,
+          "status": "active"
+        }
+      ],
+      "band": "millsage",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "青のすみか",
+          "url": "https://gamerch.com/bang-dream-on/1016824",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 10,
+            "HARD": 16,
+            "EXPERT": 21
+          }
+        },
+        "appmedia": {
+          "title": "青のすみか",
+          "url": "https://appmedia.jp/bang-dream-on/80428087",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 10,
+            "HARD": 16,
+            "EXPERT": 21
+          },
+          "band": "millsage",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "青のすみか",
+          "url": "https://wikiwiki.jp/on_database/%E9%9D%92%E3%81%AE%E3%81%99%E3%81%BF%E3%81%8B%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 69
+        },
+        "wikilist": {
+          "title": "青のすみか",
+          "url": "https://wikiwiki.jp/on_database/%E9%9D%92%E3%81%AE%E3%81%99%E3%81%BF%E3%81%8B%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 10,
+            "HARD": 16,
+            "EXPERT": 21
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-61ac695e-7ea0-4f0a-9248-79c01a321bb4",
+      "title": "unravel",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-b23cb2fa-de7a-43ea-b5e3-e04420822193",
+          "difficulty": "EASY",
+          "level": 5,
+          "status": "active"
+        },
+        {
+          "id": "chart-1b6e30ef-87b2-4138-9ac9-310fbd0c5cfe",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-23a5d87d-fe5e-4429-aa84-84a2d65de64f",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-ca2cf68b-b5f2-448a-b248-01512e532480",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "millsage",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "unravel",
+          "url": "https://gamerch.com/bang-dream-on/1016826",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "unravel",
+          "url": "https://appmedia.jp/bang-dream-on/80428090",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          },
+          "band": "millsage",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "unravel",
+          "url": "https://wikiwiki.jp/on_database/unravel%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 70
+        },
+        "wikilist": {
+          "title": "unravel",
+          "url": "https://wikiwiki.jp/on_database/unravel%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-286d88c1-834f-41af-8cfd-f0dfebee9dbc",
+      "title": "ホーミー・タイッ！！",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-79b10d65-8a46-48ae-ba14-c6956454e2db",
+          "difficulty": "EASY",
+          "level": 10,
+          "status": "active"
+        },
+        {
+          "id": "chart-f6a03e75-db30-4582-99a4-a33ae317b9ff",
+          "difficulty": "NORMAL",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-b206aa97-9cb7-4433-9d9b-c71f8d524237",
+          "difficulty": "HARD",
+          "level": 22,
+          "status": "active"
+        },
+        {
+          "id": "chart-98bb6c2a-ce95-452e-b9f8-b9544bf4cd36",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "一家Dumb Rock!",
+      "type": "紫苑",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "ホーミー・タイッ！！",
+          "url": "https://gamerch.com/bang-dream-on/993716",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 15,
+            "HARD": 22,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "ホーミー・タイッ！！",
+          "url": "https://appmedia.jp/bang-dream-on/80428093",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 15,
+            "HARD": 22,
+            "EXPERT": 26
+          },
+          "band": "一家Dumb Rock!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "ホーミー・タイッ！！",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%9B%E3%83%BC%E3%83%9F%E3%83%BC%E3%83%BB%E3%82%BF%E3%82%A4%E3%83%83%EF%BC%81%EF%BC%81%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 71
+        },
+        "wikilist": {
+          "title": "ホーミー・タイッ！！",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%9B%E3%83%BC%E3%83%9F%E3%83%BC%E3%83%BB%E3%82%BF%E3%82%A4%E3%83%83%EF%BC%81%EF%BC%81%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 10,
+            "NORMAL": 15,
+            "HARD": 22,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-b3812939-a981-4186-9c9a-35e6c03421cf",
+      "title": "ピースフル・ピーシーズ！",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-086ebf6c-0ab1-4b4f-ad7b-8173be6b4412",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-c4eb94a5-289e-41ce-a649-787d0476362d",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-a8756b21-43ba-40ef-a388-244dd8cde626",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-c91daaa1-bcd6-428a-91ab-ed2f8b4ccdac",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "一家Dumb Rock!",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "ピースフル・ピーシーズ！",
+          "url": "https://gamerch.com/bang-dream-on/1016811",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "ピースフル・ピーシーズ！",
+          "url": "https://appmedia.jp/bang-dream-on/80428096",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 26
+          },
+          "band": "一家Dumb Rock!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "ピースフル・ピーシーズ！",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%94%E3%83%BC%E3%82%B9%E3%83%95%E3%83%AB%E3%83%BB%E3%83%94%E3%83%BC%E3%82%B7%E3%83%BC%E3%82%BA%EF%BC%81%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 72
+        },
+        "wikilist": {
+          "title": "ピースフル・ピーシーズ！",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%94%E3%83%BC%E3%82%B9%E3%83%95%E3%83%AB%E3%83%BB%E3%83%94%E3%83%BC%E3%82%B7%E3%83%BC%E3%82%BA%EF%BC%81%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-8da06018-ea23-422c-b318-59a7f202a4ff",
+      "title": "Keep on Riddim",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-d5711bd3-91db-4c31-b0e3-6fa362b87564",
+          "difficulty": "EASY",
+          "level": 9,
+          "status": "active"
+        },
+        {
+          "id": "chart-c6642ea5-3fd2-4126-9dca-a37f5d478a2b",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-9b4ec170-34f6-4675-9f10-bb6818e7a5a0",
+          "difficulty": "HARD",
+          "level": 22,
+          "status": "active"
+        },
+        {
+          "id": "chart-7cd1a85f-6b34-4465-b242-0a47c35e34e0",
+          "difficulty": "EXPERT",
+          "level": 27,
+          "status": "active"
+        }
+      ],
+      "band": "一家Dumb Rock!",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Keep on Riddim",
+          "url": "https://gamerch.com/bang-dream-on/1016812",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 22,
+            "EXPERT": 27
+          }
+        },
+        "appmedia": {
+          "title": "Keep on Riddim",
+          "url": "https://appmedia.jp/bang-dream-on/80428099",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 22,
+            "EXPERT": 27
+          },
+          "band": "一家Dumb Rock!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "Keep on Riddim",
+          "url": "https://wikiwiki.jp/on_database/Keep%20on%20Riddim%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 73
+        },
+        "wikilist": {
+          "title": "Keep on Riddim",
+          "url": "https://wikiwiki.jp/on_database/Keep%20on%20Riddim%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 9,
+            "NORMAL": 14,
+            "HARD": 22,
+            "EXPERT": 27
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-13dead41-42bd-4473-b34f-dcbaf6effb97",
+      "title": "ジャイアント・キラー・チューン",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-8f80d0e5-45cb-4ed3-a523-6d55812477a9",
+          "difficulty": "EASY",
+          "level": 5,
+          "status": "active"
+        },
+        {
+          "id": "chart-458ee73a-f21c-4269-a304-fb6bc53ce3ea",
+          "difficulty": "NORMAL",
+          "level": 14,
+          "status": "active"
+        },
+        {
+          "id": "chart-20edd3a5-ece9-410e-85f0-e1cedcefa3db",
+          "difficulty": "HARD",
+          "level": 20,
+          "status": "active"
+        },
+        {
+          "id": "chart-47a02c6b-0085-49a3-a8ed-0d9a8d18d45d",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "一家Dumb Rock!",
+      "type": "山吹",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "ジャイアント・キラー・チューン",
+          "url": "https://gamerch.com/bang-dream-on/1016792",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "ジャイアント・キラー・チューン",
+          "url": "https://appmedia.jp/bang-dream-on/80428102",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 23
+          },
+          "band": "一家Dumb Rock!",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "ジャイアント・キラー・チューン",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%B8%E3%83%A3%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%83%BB%E3%82%AD%E3%83%A9%E3%83%BC%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%B3%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 74
+        },
+        "wikilist": {
+          "title": "ジャイアント・キラー・チューン",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%B8%E3%83%A3%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%83%BB%E3%82%AD%E3%83%A9%E3%83%BC%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%B3%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 14,
+            "HARD": 20,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-88c26386-34be-43ac-bc28-553f63dd8463",
+      "title": "イケナイ太陽",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-0dd66ad8-1480-4041-94e6-8803c4fc846b",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-20424096-c13c-4815-a219-6ee507a8aa43",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-238adba0-cdce-4fb5-ac7d-a8897ccaa4d5",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-af5c5115-11bb-4ca7-8463-988693bd60ae",
+          "difficulty": "EXPERT",
+          "level": 21,
+          "status": "active"
+        }
+      ],
+      "band": "一家Dumb Rock!",
+      "type": "紅赤",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "イケナイ太陽",
+          "url": "https://gamerch.com/bang-dream-on/1016829",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 21
+          }
+        },
+        "appmedia": {
+          "title": "イケナイ太陽",
+          "url": "https://appmedia.jp/bang-dream-on/80428105",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 21
+          },
+          "band": "一家Dumb Rock!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "イケナイ太陽",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%A4%E3%82%B1%E3%83%8A%E3%82%A4%E5%A4%AA%E9%99%BD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 75
+        },
+        "wikilist": {
+          "title": "イケナイ太陽",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%A4%E3%82%B1%E3%83%8A%E3%82%A4%E5%A4%AA%E9%99%BD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 21
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-1022192b-d665-4ccd-845b-7b115e7f25e8",
+      "title": "革命道中",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-e8906e1b-95f2-4d4a-a1ac-d4f000cc69b8",
+          "difficulty": "EASY",
+          "level": 6,
+          "status": "active"
+        },
+        {
+          "id": "chart-99cf13d8-ac4e-4edb-b8bb-5f862fb36af7",
+          "difficulty": "NORMAL",
+          "level": 11,
+          "status": "active"
+        },
+        {
+          "id": "chart-b6e33b03-9418-4d3c-87f3-24e46fe0136b",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-dd1f9838-2d20-45fb-a21e-f91ede284db3",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "一家Dumb Rock!",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "革命道中",
+          "url": "https://gamerch.com/bang-dream-on/1016830",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "革命道中",
+          "url": "https://appmedia.jp/bang-dream-on/80428108",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "band": "一家Dumb Rock!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "革命道中",
+          "url": "https://wikiwiki.jp/on_database/%E9%9D%A9%E5%91%BD%E9%81%93%E4%B8%AD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 76
+        },
+        "wikilist": {
+          "title": "革命道中",
+          "url": "https://wikiwiki.jp/on_database/%E9%9D%A9%E5%91%BD%E9%81%93%E4%B8%AD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 6,
+            "NORMAL": 11,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-7e58d734-2886-4287-881a-ee8c9f7f417c",
+      "title": "Mela!",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-ab259fe1-874d-47dd-af19-946ccf4d584d",
+          "difficulty": "EASY",
+          "level": 5,
+          "status": "active"
+        },
+        {
+          "id": "chart-be45a5be-95e4-4cdf-acc7-109142eeae0d",
+          "difficulty": "NORMAL",
+          "level": 10,
+          "status": "active"
+        },
+        {
+          "id": "chart-cda3d739-8763-4ff7-a3e5-8f4dfd27a47f",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-58f18675-38d8-4ff7-8915-827a34c6fffc",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "一家Dumb Rock!",
+      "type": "翡翠",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "Mela!",
+          "url": "https://gamerch.com/bang-dream-on/1016828",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 10,
+            "HARD": 17,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "Mela!",
+          "url": "https://appmedia.jp/bang-dream-on/80428111",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 10,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "band": "一家Dumb Rock!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "Mela!",
+          "url": "https://wikiwiki.jp/on_database/Mela%21%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 77
+        },
+        "wikilist": {
+          "title": "Mela!",
+          "url": "https://wikiwiki.jp/on_database/Mela%21%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 10,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-f2930f3e-b06c-4911-b2c8-4699bb126d16",
+      "title": "サムライハート(Some Like It Hot!!)",
+      "aliases": [
+        "サムライハート（Some Like It Hot!!）"
+      ],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-1c00759a-fdb0-4454-95e0-e511602a9887",
+          "difficulty": "EASY",
+          "level": 5,
+          "status": "active"
+        },
+        {
+          "id": "chart-23dda9d4-fbf8-41e6-98ab-b10a894fe352",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-559d96dd-8cfd-4889-835e-d7c4501627f9",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-fca4d442-c0db-494d-a86a-4673036ff4ac",
+          "difficulty": "EXPERT",
+          "level": 23,
+          "status": "active"
+        }
+      ],
+      "band": "一家Dumb Rock!",
+      "type": "紺碧",
+      "releasedOn": "2026-09-24",
+      "observations": {
+        "gamerch": {
+          "title": "サムライハート（Some Like It Hot!!）",
+          "url": "https://gamerch.com/bang-dream-on/1016839",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 23
+          }
+        },
+        "appmedia": {
+          "title": "サムライハート(Some Like It Hot!!)",
+          "url": "https://appmedia.jp/bang-dream-on/80428114",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "band": "一家Dumb Rock!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "サムライハート(Some Like It Hot!!)",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%B5%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%8F%E3%83%BC%E3%83%88%28Some%20Like%20It%20Hot%21%21%29%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 78
+        },
+        "wikilist": {
+          "title": "サムライハート(Some Like It Hot!!)",
+          "url": "https://wikiwiki.jp/on_database/%E3%82%B5%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%8F%E3%83%BC%E3%83%88%28Some%20Like%20It%20Hot%21%21%29%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 5,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 23
+          },
+          "releasedOn": "2026-09-24"
+        }
+      }
+    },
+    {
+      "id": "song-5dd25ce6-8f53-4da6-beac-461af24d78bc",
+      "title": "ちゅ、多様性。",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-12556089-e0ec-49fe-9f07-3bcee747efb6",
+          "difficulty": "EASY",
+          "level": 8,
+          "status": "active"
+        },
+        {
+          "id": "chart-70bedd83-2bd6-4da8-b814-602a600e14c5",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-9ff768bd-89e6-4e10-9ac9-272f0a05e140",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-fb912175-2f3c-4ef1-9249-6ab9ddd63fe1",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "翡翠",
+      "releasedOn": "2026-09-25",
+      "observations": {
+        "gamerch": {
+          "title": "ちゅ、多様性。",
+          "url": "https://gamerch.com/bang-dream-on/1016823",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 24
+          }
+        },
+        "appmedia": {
+          "title": "ちゅ、多様性。",
+          "url": "https://appmedia.jp/bang-dream-on/80430574",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 24
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "ちゅ、多様性。",
+          "url": "https://wikiwiki.jp/on_database/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "翡翠",
+          "number": 79
+        },
+        "wikilist": {
+          "title": "ちゅ、多様性。",
+          "url": "https://wikiwiki.jp/on_database/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 8,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-25"
+        }
+      }
+    },
+    {
+      "id": "song-92b4d926-0268-4742-9e87-44493295ebe4",
+      "title": "空に歌えば",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-6fe2c719-6c9b-4732-87f4-9bc1f957449d",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-d1bd497d-4a1e-413c-9b26-b890aeca4283",
+          "difficulty": "NORMAL",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-20716b2d-b55b-44f2-953c-7dad81af3d0b",
+          "difficulty": "HARD",
+          "level": 22,
+          "status": "active"
+        },
+        {
+          "id": "chart-2e7d87d7-14c6-447e-8073-2ac736e7102e",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紺碧",
+      "releasedOn": "2026-09-26",
+      "observations": {
+        "gamerch": {
+          "title": "空に歌えば",
+          "url": "https://gamerch.com/bang-dream-on/1017676",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 22,
+            "EXPERT": 26
+          }
+        },
+        "appmedia": {
+          "title": "空に歌えば",
+          "url": "https://appmedia.jp/bang-dream-on/80433268",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 22,
+            "EXPERT": 26
+          },
+          "band": "MyGO!!!!!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "空に歌えば",
+          "url": "https://wikiwiki.jp/on_database/%E7%A9%BA%E3%81%AB%E6%AD%8C%E3%81%88%E3%81%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 80
+        },
+        "wikilist": {
+          "title": "空に歌えば",
+          "url": "https://wikiwiki.jp/on_database/%E7%A9%BA%E3%81%AB%E6%AD%8C%E3%81%88%E3%81%B0%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 22,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-26"
+        }
+      }
+    },
+    {
+      "id": "song-3eb50d95-a565-4973-a633-904f4492bf18",
+      "title": "Stellar Stellar",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-64c6b8f5-0c8e-4e93-a881-3301690dec82",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-3b2444a1-5c64-4ee6-a530-cdc39c630a7d",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-18e9c420-bfdf-4a93-9ed6-f7272ccb31fe",
+          "difficulty": "HARD",
+          "level": 18,
+          "status": "active"
+        },
+        {
+          "id": "chart-7fa65b11-1973-43dd-9428-3d14c970f23f",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "millsage",
+      "type": "山吹",
+      "releasedOn": "2026-09-27",
+      "observations": {
+        "gamerch": {
+          "title": "Stellar Stellar",
+          "url": "https://gamerch.com/bang-dream-on/1017678",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "Stellar Stellar",
+          "url": "https://appmedia.jp/bang-dream-on/80435017",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "band": "millsage",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "Stellar Stellar",
+          "url": "https://wikiwiki.jp/on_database/Stellar%20Stellar%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "山吹",
+          "number": 81
+        },
+        "wikilist": {
+          "title": "Stellar Stellar",
+          "url": "https://wikiwiki.jp/on_database/Stellar%20Stellar%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 18,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "song-9c5526f4-c98d-4bf8-a262-019cbdf6e341",
+      "title": "ファタール",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-32848c15-6490-4cec-9d02-9d8d440d1669",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-3d1a36ab-5dcf-4a51-a50e-aaf0e031993f",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-fd7c99dd-9b88-481b-8ecc-724e02c885a0",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-625deb6b-3cfe-434f-adbe-150da840d8a0",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "Ave Mujica",
+      "type": "紅赤",
+      "releasedOn": "2026-09-28",
+      "observations": {
+        "gamerch": {
+          "title": "ファタール",
+          "url": "https://gamerch.com/bang-dream-on/1017748",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 25
+          }
+        },
+        "appmedia": {
+          "title": "ファタール",
+          "url": "https://appmedia.jp/bang-dream-on/80436847",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 25
+          },
+          "band": "Ave Mujica",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "ファタール",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%95%E3%82%A1%E3%82%BF%E3%83%BC%E3%83%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紅赤",
+          "number": 82
+        },
+        "wikilist": {
+          "title": "ファタール",
+          "url": "https://wikiwiki.jp/on_database/%E3%83%95%E3%82%A1%E3%82%BF%E3%83%BC%E3%83%AB%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 17,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-09-28"
+        }
+      }
+    },
+    {
+      "id": "song-ecd0ea36-4a79-43b9-bc86-b5ee6e8d94d0",
+      "title": "微笑みの爆弾",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-a592182b-fca0-401a-8f13-d42f3d5c4869",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-8844bcff-462d-4562-9077-93f28e70e48a",
+          "difficulty": "NORMAL",
+          "level": 12,
+          "status": "active"
+        },
+        {
+          "id": "chart-787c888d-583e-42c0-af39-b1f0bcb2f9fc",
+          "difficulty": "HARD",
+          "level": 17,
+          "status": "active"
+        },
+        {
+          "id": "chart-bd502d20-1973-46a3-bf5f-5bf1eb7d4e4e",
+          "difficulty": "EXPERT",
+          "level": 24,
+          "status": "active"
+        }
+      ],
+      "band": "一家Dumb Rock!",
+      "type": "紫苑",
+      "releasedOn": "2026-09-29",
+      "observations": {
+        "appmedia": {
+          "title": "微笑みの爆弾",
+          "url": "https://appmedia.jp/bang-dream-on/80439583",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "band": "一家Dumb Rock!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "微笑みの爆弾",
+          "url": "https://wikiwiki.jp/on_database/%E5%BE%AE%E7%AC%91%E3%81%BF%E3%81%AE%E7%88%86%E5%BC%BE%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 83
+        },
+        "wikilist": {
+          "title": "微笑みの爆弾",
+          "url": "https://wikiwiki.jp/on_database/%E5%BE%AE%E7%AC%91%E3%81%BF%E3%81%AE%E7%88%86%E5%BC%BE%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 12,
+            "HARD": 17,
+            "EXPERT": 24
+          },
+          "releasedOn": "2026-09-29"
+        }
+      }
+    },
+    {
+      "id": "song-86614908-5f16-4fa0-bd6c-549b549bf9ea",
+      "title": "夢我夢中",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-af409f34-942c-40e2-a6d4-96665508388a",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-a8f7e672-dd1c-4546-9023-3d6f186693c3",
+          "difficulty": "NORMAL",
+          "level": 15,
+          "status": "active"
+        },
+        {
+          "id": "chart-a092411e-c0a7-4dfd-9b27-b8d9da099b5a",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-436ab3c7-fd55-45bf-98cf-9e427f48826b",
+          "difficulty": "EXPERT",
+          "level": 26,
+          "status": "active"
+        }
+      ],
+      "band": "夢限大みゅーたいぷ",
+      "type": "紺碧",
+      "releasedOn": "2026-09-30",
+      "observations": {
+        "appmedia": {
+          "title": "夢我夢中",
+          "url": "https://appmedia.jp/bang-dream-on/80442511",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "band": "夢限大みゅーたいぷ",
+          "genre": "オリジナル"
+        },
+        "wikiwiki": {
+          "title": "夢我夢中",
+          "url": "https://wikiwiki.jp/on_database/%E5%A4%A2%E6%88%91%E5%A4%A2%E4%B8%AD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紺碧",
+          "number": 84
+        },
+        "wikilist": {
+          "title": "夢我夢中",
+          "url": "https://wikiwiki.jp/on_database/%E5%A4%A2%E6%88%91%E5%A4%A2%E4%B8%AD%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 15,
+            "HARD": 19,
+            "EXPERT": 26
+          },
+          "releasedOn": "2026-09-30"
+        }
+      }
+    }
+  ],
+  "verification": {
+    "asOf": "2026-10-02",
+    "sources": {
+      "gamerch": "https://gamerch.com/bang-dream-on/993622",
+      "appmedia": "https://appmedia.jp/bang-dream-on/80416189",
+      "wikiwiki": "https://wikiwiki.jp/on_database/楽曲一覧",
+      "wikilist": "https://wikiwiki.jp/on_database/楽曲リスト",
+      "schedule": "https://appmedia.jp/bang-dream-on/80429008"
+    },
+    "sourceSongCounts": {
+      "gamerch": 83,
+      "appmedia": 84,
+      "wikiwiki": 84,
+      "wikilist": 84
+    },
+    "levelConflicts": [
+      {
+        "title": "ないものねだり",
+        "difficulty": "EASY",
+        "adopted": 7,
+        "reported": {
+          "gamerch": 9,
+          "appmedia": 7,
+          "wikilist": 7
+        }
+      },
+      {
+        "title": "堕天",
+        "difficulty": "EASY",
+        "adopted": 9,
+        "reported": {
+          "gamerch": 8,
+          "appmedia": 9,
+          "wikilist": 9
+        }
+      },
+      {
+        "title": "堕天",
+        "difficulty": "NORMAL",
+        "adopted": 14,
+        "reported": {
+          "gamerch": 13,
+          "appmedia": 14,
+          "wikilist": 14
+        }
+      },
+      {
+        "title": "堕天",
+        "difficulty": "HARD",
+        "adopted": 18,
+        "reported": {
+          "gamerch": 18,
+          "appmedia": 28,
+          "wikilist": 18
+        }
+      }
+    ],
+    "excludedScheduledSongs": [
+      {
+        "title": "過去を喰らう",
+        "releasedOn": "2026-10-03",
+        "url": "https://appmedia.jp/bang-dream-on/80429008"
+      },
+      {
+        "title": "春日影",
+        "releasedOn": null,
+        "url": "https://appmedia.jp/bang-dream-on/80429008"
+      }
+    ]
+  }
+}
