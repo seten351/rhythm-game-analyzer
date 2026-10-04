@@ -25,14 +25,21 @@ struct AnalysisView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack(spacing: 24) {
-                ForEach(AnalysisSection.allCases, id: \.self) { item in
-                    Button { section = item } label: {
-                        VStack(spacing: 12) {
-                            Text(item.rawValue).font(.callout.weight(section == item ? .semibold : .regular))
-                                .foregroundStyle(section == item ? palette.accent : Color.secondary)
-                            Rectangle().fill(section == item ? palette.accent : Color.clear).frame(height: 2)
-                        }.fixedSize(horizontal: true, vertical: false)
-                    }.buttonStyle(.plain).accessibilityAddTraits(section == item ? .isSelected : [])
+                if palette.usesBrandUI {
+                    BrandSegmentedControl(choices: AnalysisSection.allCases.map { BrandSegmentChoice(value: $0, label: $0.rawValue) },
+                                          selection: $section, accessibilityLabel: "傾向分析の表示")
+                        .frame(width: 340).padding(.bottom, 10)
+                        .accessibilityIdentifier("analysis.section")
+                } else {
+                    ForEach(AnalysisSection.allCases, id: \.self) { item in
+                        Button { section = item } label: {
+                            VStack(spacing: 12) {
+                                Text(item.rawValue).font(.callout.weight(section == item ? .semibold : .regular))
+                                    .foregroundStyle(section == item ? palette.accent : Color.secondary)
+                                Rectangle().fill(section == item ? palette.accent : Color.clear).frame(height: 2)
+                            }.fixedSize(horizontal: true, vertical: false)
+                        }.buttonStyle(.plain).accessibilityAddTraits(section == item ? .isSelected : [])
+                    }
                 }
                 Spacer()
                 Picker("環境", selection: $environmentID) {
@@ -42,23 +49,28 @@ struct AnalysisView: View {
             }.padding(.horizontal, 28).padding(.top, 18)
             Divider()
             ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    if plays.isEmpty && section != .timing {
-                        Group {
-                            if palette.usesBrandUI {
-                                BrandEmptyState(title: "まだプレイ記録がありません", description: "スクショを取り込むと、判定の傾向と達成状況がここに表示されます。", category: .analysis)
+                BrandSavedDataTransition(isEmpty: plays.isEmpty && section != .timing,
+                                         savedPlayIDs: model.state.plays.filter { $0.gameID == model.gameID }.map(\.id)) {
+                    BrandContentSwitch(value: section) {
+                        VStack(alignment: .leading, spacing: 24) {
+                            if plays.isEmpty && section != .timing {
+                                Group {
+                                    if palette.usesBrandUI {
+                                        BrandEmptyState(title: "まだプレイ記録がありません", description: "スクショを取り込むと、判定の傾向と達成状況がここに表示されます。", category: .analysis)
+                                    } else {
+                                        ContentUnavailableView("まだプレイ記録がありません", systemImage: "chart.bar.xaxis", description: Text("スクショを取り込むと、判定の傾向と達成状況がここに表示されます。"))
+                                    }
+                                }.frame(maxWidth: .infinity, minHeight: 300)
                             } else {
-                                ContentUnavailableView("まだプレイ記録がありません", systemImage: "chart.bar.xaxis", description: Text("スクショを取り込むと、判定の傾向と達成状況がここに表示されます。"))
+                                switch section {
+                                case .summary: summaryContent
+                                case .timing: timingContent
+                                case .data: detailContent
+                                }
                             }
-                        }.frame(maxWidth: .infinity, minHeight: 300)
-                    } else {
-                        switch section {
-                        case .summary: summaryContent
-                        case .timing: timingContent
-                        case .data: detailContent
-                        }
+                        }.padding(28)
                     }
-                }.padding(28)
+                }.frame(maxWidth: .infinity, alignment: .leading)
             }
         }
         .onAppear { if showTimingOnAppear { section = .timing } }

@@ -4,8 +4,13 @@ import ResultCore
 
 @main enum Launcher {
     @MainActor static var verificationModel: AppModel?
+    @MainActor static var motionVerification: BrandMotionVerification?
     @MainActor static func main() async {
-        if CommandLine.arguments.contains("--show-home-verification") || (Bundle.main.bundleIdentifier?.contains(".home.") == true && Bundle.main.bundleIdentifier?.hasSuffix(".verification") == true) {
+        if CommandLine.arguments.contains("--show-motion-verification") || Bundle.main.bundleIdentifier?.hasSuffix(".home.motion.verification") == true {
+            motionVerification = BrandMotionVerification(persistentArtwork: Bundle.main.bundleIdentifier?.hasSuffix(".home.motion.verification") == true)
+            verificationModel = motionVerification?.model
+        }
+        if verificationModel == nil, CommandLine.arguments.contains("--show-home-verification") || (Bundle.main.bundleIdentifier?.contains(".home.") == true && Bundle.main.bundleIdentifier?.hasSuffix(".verification") == true) {
             verificationModel = HomeVerification.previewModel(empty: CommandLine.arguments.contains("--home-empty") || Bundle.main.bundleIdentifier?.contains(".home.empty.") == true)
         }
         if verificationModel == nil, CommandLine.arguments.contains("--show-library-verification") || Bundle.main.bundleIdentifier?.hasSuffix(".library.verification") == true {
@@ -83,15 +88,19 @@ import ResultCore
 struct OurNotesApplication: App {
     @State private var model = Launcher.verificationModel ?? AppModel()
     @AppStorage(AppAppearance.preferenceKey) private var appearance = AppAppearance.system
+    @FocusedValue(\.playDetailPresented) private var playDetailPresented
     var body: some Scene {
         WindowGroup("Our Notes Analyzer") {
-            RootView(model: model).frame(minWidth: 1100, minHeight: 740)
+            Group {
+                if let verification = Launcher.motionVerification { BrandMotionVerificationRoot(verification: verification) }
+                else { RootView(model: model) }
+            }.frame(minWidth: 1100, minHeight: 740)
                 .onAppear { applyAppearance() }
                 .onChange(of: appearance) { _, _ in applyAppearance() }
         }
             .defaultSize(width: 1280, height: 860)
             .commands {
-                CommandGroup(after: .newItem) { Button("スクショを取り込む…") { model.chooseImages() }.keyboardShortcut("i").disabled(model.importing || !model.pending.isEmpty) }
+                CommandGroup(after: .newItem) { Button("スクショを取り込む…") { model.chooseImages() }.keyboardShortcut("i").disabled(model.importing || !model.pending.isEmpty || playDetailPresented == true) }
             }
     }
 

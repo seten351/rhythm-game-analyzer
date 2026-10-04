@@ -126,7 +126,18 @@ def parse_songs(name, source):
         if name == "appmedia" and "data-name" in row["attrs"]:
             title = row["attrs"]["data-name"]
             levels = {d.upper(): int(n) for d, n in re.findall(r"(Easy|Normal|Hard|Expert)\s*(\d+)", text)}
-            link = cells[0]["links"][0]
+            if cells[0]["links"]:
+                link = cells[0]["links"][0]
+            else:
+                # Newly released songs may have a complete table row before
+                # AppMedia publishes their individual detail page. Preserve
+                # the observed row ID so several such songs cannot share an
+                # ambiguous source identity on the next catalog update.
+                row_id = row["attrs"].get("data-id", "")
+                if not row_id.isdigit():
+                    raise CatalogError(f"{name}: no detail link or stable row ID: {title}")
+                link = {"href": URLS[name]}
+                extra["rowID"] = row_id
             extra["band"] = row["attrs"]["data-band"]
             extra["genre"] = values[1]
         elif name == "gamerch" and len(cells) == 2 and "EASY" in text:
@@ -214,7 +225,7 @@ def build_catalog(pages, previous, samples, as_of):
             raise CatalogError("Existing catalog belongs to a different source/format")
         for song in previous["songs"]:
             for observation in song["observations"].values():
-                url = observation["url"]
+                url = (observation["url"], observation.get("rowID"))
                 if url in old_by_url and old_by_url[url]["id"] != song["id"]:
                     raise CatalogError("Ambiguous existing source URL")
                 old_by_url[url] = song
@@ -222,7 +233,8 @@ def build_catalog(pages, previous, samples, as_of):
     songs, conflicts = [], []
     for key in sorted(keys, key=lambda k: active["wikiwiki"][k]["number"]):
         observations = {name: table[key] for name, table in active.items() if key in table}
-        matched = {old_by_url[o["url"]]["id"]: old_by_url[o["url"]] for o in observations.values() if o["url"] in old_by_url}
+        matched = {old_by_url[(o["url"], o.get("rowID"))]["id"]: old_by_url[(o["url"], o.get("rowID"))]
+                   for o in observations.values() if (o["url"], o.get("rowID")) in old_by_url}
         if len(matched) > 1:
             raise CatalogError(f"Multiple existing IDs match {key}")
         prior = next(iter(matched.values()), None)

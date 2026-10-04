@@ -2,8 +2,8 @@
   "formatVersion": 1,
   "gameId": "our-notes",
   "sourceId": "our-notes-community",
-  "revision": 1,
-  "generatedAt": "2026-10-02T00:47:57Z",
+  "revision": 2,
+  "generatedAt": "2026-10-04T04:56:07Z",
   "isComplete": true,
   "songs": [
     {
@@ -6482,10 +6482,78 @@
           "releasedOn": "2026-09-30"
         }
       }
+    },
+    {
+      "id": "song-32a6ed47-04b9-4804-a7e4-f3125470918a",
+      "title": "過去を喰らう",
+      "aliases": [],
+      "status": "active",
+      "charts": [
+        {
+          "id": "chart-5bcb28a2-b3f3-49b0-acc7-293b1aceebb8",
+          "difficulty": "EASY",
+          "level": 7,
+          "status": "active"
+        },
+        {
+          "id": "chart-3f9f8a71-5a4d-4538-8cf9-d85fe07cbb9b",
+          "difficulty": "NORMAL",
+          "level": 13,
+          "status": "active"
+        },
+        {
+          "id": "chart-90711e05-0de3-4c09-82a4-2c80a05a7bd1",
+          "difficulty": "HARD",
+          "level": 19,
+          "status": "active"
+        },
+        {
+          "id": "chart-51c9f556-b86b-4353-817e-7d371f27dffd",
+          "difficulty": "EXPERT",
+          "level": 25,
+          "status": "active"
+        }
+      ],
+      "band": "MyGO!!!!!",
+      "type": "紫苑",
+      "releasedOn": "2026-10-03",
+      "observations": {
+        "appmedia": {
+          "title": "過去を喰らう",
+          "url": "https://appmedia.jp/bang-dream-on/80416189",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 25
+          },
+          "rowID": "85",
+          "band": "MyGO!!!!!",
+          "genre": "カバー"
+        },
+        "wikiwiki": {
+          "title": "過去を喰らう",
+          "url": "https://wikiwiki.jp/on_database/%E9%81%8E%E5%8E%BB%E3%82%92%E5%96%B0%E3%82%89%E3%81%86%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {},
+          "type": "紫苑",
+          "number": 85
+        },
+        "wikilist": {
+          "title": "過去を喰らう",
+          "url": "https://wikiwiki.jp/on_database/%E9%81%8E%E5%8E%BB%E3%82%92%E5%96%B0%E3%82%89%E3%81%86%20%E6%A5%BD%E6%9B%B2%E3%83%87%E3%83%BC%E3%82%BF",
+          "levels": {
+            "EASY": 7,
+            "NORMAL": 13,
+            "HARD": 19,
+            "EXPERT": 25
+          },
+          "releasedOn": "2026-10-03"
+        }
+      }
     }
   ],
   "verification": {
-    "asOf": "2026-10-02",
+    "asOf": "2026-10-04",
     "sources": {
       "gamerch": "https://gamerch.com/bang-dream-on/993622",
       "appmedia": "https://appmedia.jp/bang-dream-on/80416189",
@@ -6495,9 +6563,9 @@
     },
     "sourceSongCounts": {
       "gamerch": 83,
-      "appmedia": 84,
-      "wikiwiki": 84,
-      "wikilist": 84
+      "appmedia": 85,
+      "wikiwiki": 85,
+      "wikilist": 85
     },
     "levelConflicts": [
       {
@@ -6542,11 +6610,6 @@
       }
     ],
     "excludedScheduledSongs": [
-      {
-        "title": "過去を喰らう",
-        "releasedOn": "2026-10-03",
-        "url": "https://appmedia.jp/bang-dream-on/80429008"
-      },
       {
         "title": "春日影",
         "releasedOn": null,

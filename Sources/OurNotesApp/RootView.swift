@@ -17,6 +17,10 @@ struct RootView: View {
     @Environment(\.colorScheme) private var colorScheme
     @State private var showTimingAnalysis = false
     @State private var libraryBrowser = LibraryBrowserState()
+    @State private var inspecting: HomeRecord?
+    @State private var detailFocus = PlayDetailFocusRestoration()
+    @FocusState private var homeRecordFocus: HomeDetailOrigin?
+    @State private var detailOrigin: HomeDetailOrigin?
     var body: some View {
         let palette = AppPalette(theme: theme, isDark: colorScheme == .dark)
         Group {
@@ -37,7 +41,7 @@ struct RootView: View {
                         }
                         VStack(alignment: .leading, spacing: 8) {
                             Label("Mac内で完結", systemImage: "checkmark.shield").foregroundStyle(palette.accent)
-                            Text("画像を恒久保存しません").foregroundStyle(.secondary)
+                            Text("取込スクショは保存しません").foregroundStyle(.secondary)
                             if !model.pending.isEmpty { Text("\(model.pending.count)件の確認待ち").foregroundStyle(.orange) }
                         }.font(.caption).padding(18)
                     }.background(palette.sidebar).navigationSplitViewColumnWidth(min: 195, ideal: 210)
@@ -60,13 +64,11 @@ struct RootView: View {
                         case .home: HomeView(model: model, onImport: {
                             page = .imports
                             if model.importCount == 0 && model.pending.isEmpty { model.chooseImages() }
-                        }, onShowLibrary: { page = .library }, onShowChart: { record in
-                            libraryBrowser.resetFilters()
-                            libraryBrowser.includeArchived = record.song.availability == .retired || record.chart.availability == .retired
-                            libraryBrowser.selectedID = record.chart.id
-                            libraryBrowser.detailTab = .history
-                            page = .library
-                        })
+                        }, onShowLibrary: { page = .library }, onInspect: { record, origin in
+                            detailFocus.capture()
+                            detailOrigin = origin; homeRecordFocus = nil
+                            inspecting = record
+                        }, recordFocus: $homeRecordFocus)
                         case .library: LibraryView(model: model, browser: $libraryBrowser, onShowTimingAnalysis: { showTimingAnalysis = true; page = .analysis })
                         case .imports: ImportView(model: model)
                         case .analysis: AnalysisView(model: model, showTimingOnAppear: showTimingAnalysis)
@@ -77,6 +79,31 @@ struct RootView: View {
                 }
             }
         }
+        .disabled(palette.usesBrandUI && inspecting != nil)
+        .accessibilityHidden(palette.usesBrandUI && inspecting != nil)
+        .overlay {
+            if palette.usesBrandUI, let record = inspecting {
+                PlayDetailOverlay(record: record) { openHistory in
+                    inspecting = nil
+                    if openHistory { showChart(record) }
+                }.id(record.id)
+            }
+        }
+        .focusedSceneValue(\.playDetailPresented, inspecting != nil)
+        .onChange(of: inspecting?.id) { _, id in
+            if id == nil {
+                detailFocus.restore()
+                if page == .home { Task { @MainActor in await Task.yield(); if inspecting == nil && page == .home { homeRecordFocus = detailOrigin } } }
+            }
+        }
+        .sheet(item: Binding(get: { palette.usesBrandUI ? nil : inspecting }, set: { inspecting = $0 })) { record in
+            HomeRecordDetail(record: record, onClose: { inspecting = nil }, onShowChart: { inspecting = nil; showChart(record) })
+                .presentationBackground(palette.background)
+                .background(SheetBackdropDismissal { inspecting = nil })
+        }
+        .alert("楽曲画像", isPresented: Binding(get: { model.artwork.statusMessage != nil }, set: { if !$0 { model.artwork.acknowledgeStatus() } })) {
+            Button("閉じる") { model.artwork.acknowledgeStatus() }
+        } message: { Text(model.artwork.statusMessage ?? "") }
         .onChange(of: page) { _, selected in if selected != .analysis { showTimingAnalysis = false } }
         .alert("処理できませんでした", isPresented: Binding(get: { model.errorMessage != nil }, set: { if !$0 { model.errorMessage = nil } })) { Button("閉じる") { model.errorMessage = nil } } message: { Text(model.errorMessage ?? "") }
         .sheet(isPresented: Binding(get: { model.pendingPreset != nil }, set: { if !$0 { model.pendingPreset = nil } })) {
@@ -88,8 +115,17 @@ struct RootView: View {
         }
         .onDisappear { model.finishSession() }
         .environment(\.appPalette, palette)
+        .environment(\.songArtworkStore, model.artwork)
         .tint(palette.accent)
         .background(palette.background)
+    }
+
+    private func showChart(_ record: HomeRecord) {
+        libraryBrowser.resetFilters()
+        libraryBrowser.includeArchived = record.song.availability == .retired || record.chart.availability == .retired
+        libraryBrowser.selectedID = record.chart.id
+        libraryBrowser.detailTab = .history
+        page = .library
     }
 
 }

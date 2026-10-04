@@ -46,7 +46,7 @@ struct SettingsView: View {
                     } else { Text("調整仕様が未確認のため数値候補は保留します。").foregroundStyle(.secondary) }
                 }
                 Button("更新プリセットを選択…") { model.choosePreset() }.disabled(model.importing || !model.pending.isEmpty)
-                Text("画像は恒久保存せず、ローカルDBには解析値と指紋のみ保存します。").foregroundStyle(.secondary)
+                Text("取込スクショは保存せず、ローカルDBには解析値と指紋のみ保存します。楽曲画像の表示用コピーはMac内に保存します。").foregroundStyle(.secondary)
                 Text(model.storePath).font(.caption).foregroundStyle(.secondary).textSelection(.enabled)
             }.padding(24)
         }.sheet(item: $editing) { environment in EnvironmentEditor(model: model, environment: environment) }

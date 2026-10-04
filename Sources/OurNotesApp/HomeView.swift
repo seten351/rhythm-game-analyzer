@@ -1,13 +1,16 @@
 import SwiftUI
 import ResultCore
 
+enum HomeDetailOrigin: Hashable { case achievement(UUID), additional(UUID), recent(UUID) }
+
 struct HomeView: View {
     @Bindable var model: AppModel
     @Environment(\.appPalette) private var palette
+    @BrandReduceMotion private var reduceMotion
     var onImport: () -> Void
     var onShowLibrary: () -> Void
-    var onShowChart: (HomeRecord) -> Void
-    @State private var inspecting: HomeRecord?
+    var onInspect: (HomeRecord, HomeDetailOrigin) -> Void
+    var recordFocus: FocusState<HomeDetailOrigin?>.Binding
 
     var body: some View {
         let snapshot = HomePresentation.snapshot(state: model.state, gameID: model.gameID,
@@ -21,22 +24,20 @@ struct HomeView: View {
                     Text("解析と照合が終わると、登録された成果がここに反映されます。").font(.caption).foregroundStyle(.secondary)
                 }
                 if !model.pending.isEmpty || model.failedCount > 0 { attention }
-                if snapshot.totalPlays == 0 {
-                    emptyState
-                } else {
-                    if !model.importing { achievements(snapshot) }
-                    totals(snapshot)
-                    recent(snapshot.recentRecords)
-                    Text("初AP・初FC・コンボ更新は保存された確定履歴の範囲で判定します。異なる環境・設定の記録も含みます。")
-                        .font(.caption2).foregroundStyle(.secondary)
+                BrandSavedDataTransition(isEmpty: snapshot.totalPlays == 0, savedPlayIDs: model.state.plays.map(\.id)) {
+                    if snapshot.totalPlays == 0 {
+                        emptyState
+                    } else {
+                        if !model.importing { achievements(snapshot) }
+                        totals(snapshot)
+                        recent(snapshot.recentRecords)
+                        Text("初AP・初FC・コンボ更新は保存された確定履歴の範囲で判定します。異なる環境・設定の記録も含みます。")
+                            .font(.caption2).foregroundStyle(.secondary)
+                    }
                 }
             }.padding(28).frame(maxWidth: .infinity, alignment: .leading)
         }
         .accessibilityIdentifier("home.content")
-        .sheet(item: $inspecting) { record in
-            HomeRecordDetail(record: record) { inspecting = nil; onShowChart(record) }
-                .presentationBackground(palette.background)
-        }
     }
 
     private var attention: some View {
@@ -91,14 +92,14 @@ struct HomeView: View {
                 if snapshot.achievements.count > 3 {
                     DisclosureGroup("ほか\(snapshot.achievements.count - 3)譜面の成果") {
                         ForEach(snapshot.achievements.dropFirst(3)) { achievement in
-                            Button { inspecting = achievement.record } label: {
+                            Button { onInspect(achievement.record, .additional(achievement.record.id)) } label: {
                                 HStack {
                                     Text(achievement.record.song.title)
                                     Text(achievement.record.chart.difficulty).foregroundStyle(.secondary)
                                     Spacer()
                                     Text(achievement.kind.title).foregroundStyle(palette.usesBrandUI ? palette.achievementColor(achievement.kind) : palette.accent)
                                 }.font(.callout).padding(.vertical, 6)
-                            }.buttonStyle(.plain)
+                            }.buttonStyle(.plain).focusable().focused(recordFocus, equals: .additional(achievement.record.id))
                         }
                     }.font(.caption)
                 }
@@ -125,11 +126,15 @@ struct HomeView: View {
     private func achievementCard(_ achievement: HomeAchievement) -> some View {
         let record = achievement.record
         let accent = palette.achievementColor(achievement.kind)
-        return Button { inspecting = record } label: {
+        return BrandAchievementAppearance(playID: record.id, claimPresentation: {
+            model.brandAchievementMotion.claim(playID: record.id, batchPlayIDs: model.lastBatchPlayIDs,
+                                              theme: palette.theme, reduceMotion: reduceMotion)
+        }, colors: palette.brand, kind: achievement.kind) { lineProgress in
+        Button { onInspect(record, .achievement(record.id)) } label: {
             VStack(alignment: .leading, spacing: 10) {
                 if palette.usesBrandUI {
                     HStack {
-                        BrandNoteLines(colors: palette.brand, role: .achievement(achievement.kind))
+                        BrandNoteLines(colors: palette.brand, role: .achievement(achievement.kind), progress: lineProgress)
                         BrandScriptLabel(category: .newRecord)
                         Spacer(minLength: 0)
                         Text(achievement.kind == .firstAP ? "AP" : achievement.kind == .firstFC ? "FC" : "COMBO")
@@ -140,11 +145,14 @@ struct HomeView: View {
                 }
                 Label(achievement.kind.title, systemImage: achievement.kind.symbol)
                     .font(.caption.weight(.semibold)).foregroundStyle(accent)
-                Text(record.song.title).font(.headline).lineLimit(2).frame(height: 40, alignment: .topLeading).help(record.song.title)
+                HStack(spacing: 11) {
+                    if palette.usesBrandUI { SongArtworkView(song: record.song, size: 48) }
+                    Text(record.song.title).font(.headline).lineLimit(2).frame(maxWidth: .infinity, minHeight: 40, alignment: .leading).help(record.song.title)
+                }
                 Text(record.chartLabel).font(.caption).foregroundStyle(.secondary)
                 VStack(alignment: .leading, spacing: 2) {
                     Text("最大コンボ").font(.caption).foregroundStyle(.secondary)
-                    Text(record.play.combo.map { $0.formatted() } ?? "—").font(.system(size: 29, weight: .semibold, design: .rounded)).monospacedDigit()
+                    BrandMetricValue(value: record.play.combo, identity: record.chart.id).font(.system(size: 29, weight: .semibold, design: .rounded))
                 }
                 HStack {
                     if let increase = achievement.comboIncrease { Text("前の記録から +\(increase.formatted())") }
@@ -162,7 +170,9 @@ struct HomeView: View {
                 }
                 .overlay { RoundedRectangle(cornerRadius: 9).stroke(palette.border) }
                 .contentShape(RoundedRectangle(cornerRadius: 9))
-        }.buttonStyle(.plain).accessibilityIdentifier("home.achievement.\(achievement.kind.rawValue)")
+        }.buttonStyle(.plain).focusable().focused(recordFocus, equals: .achievement(record.id))
+            .accessibilityIdentifier("home.achievement.\(achievement.kind.rawValue)")
+        }
     }
 
     private func totals(_ snapshot: HomeSnapshot) -> some View {
@@ -184,8 +194,9 @@ struct HomeView: View {
         VStack(alignment: .leading, spacing: 9) {
             HStack { Text("最近登録したプレイ").font(.headline); Spacer(); Text("登録が新しい順").font(.caption).foregroundStyle(.secondary) }
             ForEach(records) { record in
-                Button { inspecting = record } label: {
+                Button { onInspect(record, .recent(record.id)) } label: {
                     HStack(spacing: 20) {
+                        if palette.usesBrandUI { SongArtworkView(song: record.song, size: 36) }
                         VStack(alignment: .leading, spacing: 5) {
                             HStack { Text(record.song.title).font(.callout.weight(.medium)); Text(record.play.achievement.label).font(.caption).foregroundStyle(record.play.achievement.isAP ? palette.ap : (record.play.achievement.isFC ? palette.fc : Color.secondary)) }
                             Text("\(record.chartLabel) · \(record.play.importedAt.formatted(date: .abbreviated, time: .shortened)) 登録")
@@ -197,7 +208,7 @@ struct HomeView: View {
                         }
                         Image(systemName: "chevron.right").font(.caption).foregroundStyle(.secondary)
                     }.padding(.vertical, 11).contentShape(Rectangle())
-                }.buttonStyle(.plain)
+                }.buttonStyle(.plain).focusable().focused(recordFocus, equals: .recent(record.id))
                 if record.id != records.last?.id { Divider() }
             }
         }
@@ -219,15 +230,22 @@ private struct HomeTotal: View {
     }
 }
 
-private struct HomeRecordDetail: View {
+struct HomeRecordDetail: View {
     let record: HomeRecord
+    let onClose: () -> Void
     let onShowChart: () -> Void
-    @Environment(\.dismiss) private var dismiss
+    var closeFocus: FocusState<Bool>.Binding? = nil
+    var accessibilityCloseFocus: AccessibilityFocusState<Bool>.Binding? = nil
     @Environment(\.appPalette) private var palette
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             if palette.usesBrandUI { BrandSectionHeader(title: "プレイ詳細", category: .history, font: .caption.weight(.medium)) }
-            HStack { Text(record.song.title).font(.title2.weight(.semibold)); Spacer(); Button("閉じる") { dismiss() } }
+            HStack(spacing: 14) {
+                if palette.usesBrandUI { SongArtworkView(song: record.song, size: 64) }
+                Text(record.song.title).font(.title2.weight(.semibold)).textSelection(.enabled)
+                Spacer()
+                closeButton
+            }
             Text("\(record.chartLabel) · \(record.play.achievement.label)").font(.callout).foregroundStyle(.secondary)
             HStack(spacing: 24) {
                 VStack(alignment: .leading, spacing: 5) {
@@ -252,7 +270,14 @@ private struct HomeRecordDetail: View {
             Text("プレイ日時：\(record.play.playedAt.map { $0.formatted(date: .abbreviated, time: .shortened) } ?? "不明")").font(.caption)
             Text("登録日時：\(record.play.importedAt.formatted(date: .abbreviated, time: .shortened))").font(.caption)
             Text(libraryEnvironmentLabel(record.play)).font(.caption).foregroundStyle(.secondary)
-            HStack { Text("PERFECT率は全5判定の合計を分母に計算").font(.caption2).foregroundStyle(.secondary); Spacer(); Button("譜面の履歴を開く", action: onShowChart).buttonStyle(.borderedProminent) }
+            HStack { Text("PERFECT率は全5判定の合計を分母に計算").font(.caption2).foregroundStyle(.secondary); Spacer(); Button("譜面の履歴を開く", action: onShowChart).buttonStyle(.borderedProminent).focusable() }
         }.padding(28).frame(width: 540)
+    }
+    @ViewBuilder private var closeButton: some View {
+        if let closeFocus, let accessibilityCloseFocus {
+            Button("閉じる", action: onClose).keyboardShortcut(.cancelAction)
+                .focusable().focused(closeFocus).accessibilityFocused(accessibilityCloseFocus)
+                .accessibilityIdentifier("playDetail.close")
+        } else { Button("閉じる", action: onClose).keyboardShortcut(.cancelAction).accessibilityIdentifier("playDetail.close") }
     }
 }

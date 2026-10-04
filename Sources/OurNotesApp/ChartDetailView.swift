@@ -14,30 +14,46 @@ struct ChartDetailView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
-                VStack(alignment: .leading, spacing: 7) {
-                    Text(row.song.title).font(.title3.weight(.semibold)).textSelection(.enabled)
-                    HStack(spacing: 10) {
-                        Text("\(row.chart.difficulty) · Lv.\(row.chart.level.map(String.init) ?? "—")").font(.caption).foregroundStyle(.secondary)
-                        LibraryAchievementLabel(row: row)
+                HStack(alignment: .top, spacing: 12) {
+                    if palette.usesBrandUI { SongArtworkView(song: row.song, size: 72) }
+                    VStack(alignment: .leading, spacing: 7) {
+                        Text(row.song.title).font(.title3.weight(.semibold)).textSelection(.enabled)
+                        HStack(spacing: 10) {
+                            Text("\(row.chart.difficulty) · Lv.\(row.chart.level.map(String.init) ?? "—")").font(.caption).foregroundStyle(.secondary)
+                            LibraryAchievementLabel(row: row)
+                        }
+                        if palette.usesBrandUI { SongArtworkMenu(model: model, song: row.song) }
                     }
                 }
-                Picker("譜面の詳細", selection: $tab) {
-                    Text("概要").tag(LibraryDetailTab.overview)
-                    Text("履歴 \(row.plays.count)").tag(LibraryDetailTab.history)
-                }.pickerStyle(.segmented).labelsHidden().accessibilityIdentifier("library.detailTab")
-                if row.plays.isEmpty {
-                    if palette.usesBrandUI {
-                        BrandEmptyState(title: "まだプレイ記録がありません。", description: "スクショを取り込むと、ここに結果が表示されます。", category: .history, alignment: .leading, titleFont: .callout)
-                    } else {
-                        VStack(alignment: .leading, spacing: 7) {
-                            Text("まだプレイ記録がありません。").font(.callout)
-                            Text("スクショを取り込むと、ここに結果が表示されます。").font(.caption).foregroundStyle(.secondary)
-                        }.padding(.vertical, 10)
-                    }
-                } else if tab == .overview {
-                    overview
+                if palette.usesBrandUI {
+                    BrandSegmentedControl(choices: [
+                        BrandSegmentChoice(value: LibraryDetailTab.overview, label: "概要"),
+                        BrandSegmentChoice(value: LibraryDetailTab.history, label: "履歴 \(row.plays.count)")
+                    ], selection: $tab, accessibilityLabel: "譜面の詳細")
+                        .accessibilityIdentifier("library.detailTab")
                 } else {
-                    history
+                    Picker("譜面の詳細", selection: $tab) {
+                        Text("概要").tag(LibraryDetailTab.overview)
+                        Text("履歴 \(row.plays.count)").tag(LibraryDetailTab.history)
+                    }.pickerStyle(.segmented).labelsHidden().accessibilityIdentifier("library.detailTab")
+                }
+                BrandSavedDataTransition(isEmpty: row.plays.isEmpty, savedPlayIDs: row.plays.map(\.id)) {
+                    BrandContentSwitch(value: tab) {
+                        if row.plays.isEmpty {
+                            if palette.usesBrandUI {
+                                BrandEmptyState(title: "まだプレイ記録がありません。", description: "スクショを取り込むと、ここに結果が表示されます。", category: .history, alignment: .leading, titleFont: .callout)
+                            } else {
+                                VStack(alignment: .leading, spacing: 7) {
+                                    Text("まだプレイ記録がありません。").font(.callout)
+                                    Text("スクショを取り込むと、ここに結果が表示されます。").font(.caption).foregroundStyle(.secondary)
+                                }.padding(.vertical, 10)
+                            }
+                        } else if tab == .overview {
+                            overview
+                        } else {
+                            history
+                        }
+                    }
                 }
             }.padding(18).frame(maxWidth: .infinity, alignment: .leading)
         }
@@ -62,7 +78,7 @@ struct ChartDetailView: View {
                         Spacer()
                         Text("全環境・全設定")
                     }.font(.caption).foregroundStyle(.secondary)
-                    Text(best.score.formatted()).font(.system(size: 30, weight: .semibold, design: .rounded)).monospacedDigit()
+                    BrandMetricValue(value: best.score, identity: row.id).font(.system(size: 30, weight: .semibold, design: .rounded))
                     Text(libraryEnvironmentLabel(best)).font(.caption).foregroundStyle(.secondary)
                     Text("タイミング \(best.environment?.settings.noteTiming.map { decimalString($0) } ?? "不明")")
                         .font(.caption2).foregroundStyle(.secondary)

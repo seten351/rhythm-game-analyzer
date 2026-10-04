@@ -30,10 +30,10 @@ import XCTest
         let repository = Repository()
         let model = AppModel(inMemory: true, repository: repository)
         XCTAssertNil(model.startupError)
-        XCTAssertEqual(model.state.songs.count, 84)
-        XCTAssertEqual(model.state.activeCharts(gameID: "our-notes").count, 336)
+        XCTAssertEqual(model.state.songs.count, 85)
+        XCTAssertEqual(model.state.activeCharts(gameID: "our-notes").count, 340)
         XCTAssertEqual(model.state.catalogs.map(\.sourceID), [OurNotesCatalog.sourceID])
-        XCTAssertEqual(model.state.bindings.count, 420)
+        XCTAssertEqual(model.state.bindings.count, 425)
         XCTAssertEqual(repository.saves, 1)
         let reopened = AppModel(inMemory: true, repository: repository)
         XCTAssertNil(reopened.startupError)
@@ -71,7 +71,7 @@ import XCTest
         XCTAssertTrue(model.state.charts.allSatisfy { $0.userLevel == nil && $0.userDifficulty == nil })
         XCTAssertFalse(model.state.songs.contains { $0.title == "以前のマスターの誤表記" })
         XCTAssertEqual(model.state.charts.first { $0.id == oldChartIDs[0] }?.level, 25)
-        XCTAssertEqual(model.state.activeCharts(gameID: "our-notes").count, 336)
+        XCTAssertEqual(model.state.activeCharts(gameID: "our-notes").count, 340)
     }
 
     func testDuplicateMastersMergeHistoryAndUnmatchedHistoryIsArchived() throws {
@@ -89,7 +89,7 @@ import XCTest
         repository.stored.plays = plays
         let model = AppModel(inMemory: true, repository: repository)
         XCTAssertNil(model.startupError)
-        XCTAssertEqual(model.state.activeCharts(gameID: "our-notes").count, 336)
+        XCTAssertEqual(model.state.activeCharts(gameID: "our-notes").count, 340)
         XCTAssertEqual(model.state.songs.filter { $0.title == "焚音打" }.count, 1)
         XCTAssertEqual(model.state.plays.map(\.chartID), [ca.id, ca.id, cu.id])
         XCTAssertEqual(model.state.plays.map(\.titleAtPlay), plays.map(\.titleAtPlay))
@@ -130,13 +130,14 @@ import XCTest
     func testSnapshotHasCurrentSongsCorrectedLevelsAndSeparateVersions() throws {
         let catalog = try document()
         XCTAssertTrue(catalog.isComplete)
-        XCTAssertEqual(Set(catalog.songs.map(\.id)).count, 84)
-        XCTAssertEqual(Set(catalog.songs.flatMap { $0.charts.map(\.id) }).count, 336)
+        XCTAssertEqual(Set(catalog.songs.map(\.id)).count, 85)
+        XCTAssertEqual(Set(catalog.songs.flatMap { $0.charts.map(\.id) }).count, 340)
         XCTAssertTrue(catalog.songs.allSatisfy { Set($0.charts.map(\.difficulty)) == OurNotesCatalog.difficulties })
         XCTAssertTrue(catalog.songs.contains { $0.title == "夢我夢中" })
         XCTAssertTrue(catalog.songs.contains { $0.title == "微笑みの爆弾" })
         XCTAssertTrue(catalog.songs.contains { $0.title == "春日影(MyGO!!!!! ver.)" })
-        XCTAssertFalse(catalog.songs.contains { $0.title == "春日影" || $0.title == "過去を喰らう" })
+        XCTAssertFalse(catalog.songs.contains { $0.title == "春日影" })
+        XCTAssertEqual(catalog.songs.first { $0.title == "過去を喰らう" }?.charts.map(\.level), [7, 13, 19, 25])
         XCTAssertEqual(catalog.songs.first { $0.title == "堕天" }?.charts.map(\.level), [9, 14, 18, 26])
         XCTAssertEqual(catalog.songs.first { $0.title == "ないものねだり" }?.charts.first?.level, 7)
         XCTAssertTrue(try XCTUnwrap(catalog.songs.first { $0.title == "証命讃歌" }).aliases.contains("証明讃歌"))
@@ -150,7 +151,7 @@ import XCTest
         let second = AppModel(inMemory: true, repository: try LocalRepository(storageDirectory: directory))
         XCTAssertNil(second.startupError)
         XCTAssertEqual(second.state, first.state)
-        XCTAssertEqual(second.state.activeCharts(gameID: "our-notes").count, 336)
+        XCTAssertEqual(second.state.activeCharts(gameID: "our-notes").count, 340)
     }
 
     func testWebRevisionKeepsIdentitiesAndRejectsSameRevisionEdits() throws {
@@ -179,6 +180,6 @@ import XCTest
         XCTAssertEqual(model.state.songs.first { $0.id == song.id }?.availability, .retired)
         let canonical = try XCTUnwrap(model.state.songs.first { $0.title == "春日影(MyGO!!!!! ver.)" })
         XCTAssertNotEqual(canonical.id, song.id)
-        XCTAssertEqual(model.state.activeCharts(gameID: "our-notes").count, 336)
+        XCTAssertEqual(model.state.activeCharts(gameID: "our-notes").count, 340)
     }
 }

@@ -3,6 +3,8 @@ import ResultCore
 
 struct LibraryView: View {
     @Environment(\.appPalette) private var palette
+    @BrandReduceMotion private var reduceMotion
+    @Namespace private var achievementSelection
     @Bindable var model: AppModel
     @Binding var browser: LibraryBrowserState
     var onShowTimingAnalysis: () -> Void = {}
@@ -149,7 +151,19 @@ struct LibraryView: View {
                         Text("\(scoped.filter(value.includes).count)").monospacedDigit().opacity(0.8)
                     }.font(.caption).padding(.horizontal, 9).padding(.vertical, 6)
                         .foregroundStyle(browser.filter == value ? palette.accent : Color.secondary)
-                        .background(browser.filter == value ? palette.accent.opacity(0.12) : .clear, in: RoundedRectangle(cornerRadius: 6))
+                        .background {
+                            if palette.usesBrandUI {
+                                ZStack {
+                                    if browser.filter == value {
+                                        RoundedRectangle(cornerRadius: 6).fill(palette.brand.selection)
+                                            .matchedGeometryEffect(id: "achievement", in: achievementSelection)
+                                    }
+                                }
+                                .animation(BrandMotion.selection(reduceMotion: reduceMotion), value: browser.filter)
+                            } else {
+                                RoundedRectangle(cornerRadius: 6).fill(browser.filter == value ? palette.accent.opacity(0.12) : .clear)
+                            }
+                        }
                 }.buttonStyle(.plain)
                     .accessibilityAddTraits(browser.filter == value ? .isSelected : [])
             }
@@ -161,7 +175,7 @@ struct LibraryView: View {
     private func chartTable(_ rows: [LibraryChartRow]) -> some View {
         GeometryReader { geometry in
           if palette.usesBrandUI {
-            BrandLibraryTable(rows: rows, selectedID: $browser.selectedID, palette: palette, width: geometry.size.width)
+            BrandLibraryTable(rows: rows, selectedID: $browser.selectedID, palette: palette, width: geometry.size.width, artwork: model.artwork)
           } else {
           Table(rows, selection: $browser.selectedID) {
             TableColumn("曲名 / 難易度") { row in

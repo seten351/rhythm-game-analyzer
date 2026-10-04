@@ -69,7 +69,7 @@ import ResultCore
             let file = directory.appendingPathComponent("analysis.json")
             try model.writeAnalysisExport(data, to: file, playCount: 3)
             let json = try JSONSerialization.jsonObject(with: Data(contentsOf: file)) as! [String: Any]
-            try check((json["songs"] as? [Any])?.count == 84 && (json["charts"] as? [Any])?.count == 336 && (json["plays"] as? [Any])?.count == 3, "JSON全マスター・3プレイ")
+            try check((json["songs"] as? [Any])?.count == model.state.songs.count && (json["charts"] as? [Any])?.count == model.state.charts.count && (json["plays"] as? [Any])?.count == 3, "JSON全マスター・3プレイ")
             try check((json["app"] as? [String: Any])?["version"] as? String == "0.2.0" && json["formatVersion"] as? Int == AnalysisExportService.formatVersion && json["analysisRulesVersion"] as? Int == AnalysisExportService.analysisRulesVersion, "JSON識別版")
             let text = String(decoding: data, as: UTF8.self)
             try check(!text.contains("sha256") && !text.contains("perceptualHash") && !text.contains(".png") && !text.contains("IMG_0651") && !text.contains("/Users/"), "画像・パス・指紋出力なし")
@@ -90,7 +90,7 @@ import ResultCore
                 while model.importing { try await Task.sleep(for: .milliseconds(20)) }
             }
             for (url, hash) in hashes { try check(Data(SHA256.hash(data: Data(contentsOf: url))) == hash, "元画像のSHA不変") }
-            print("Analysis export: PASS — 7 real OCR images, 3 merged plays/6 anonymous date records, 84 songs/336 charts; JSON versions/nulls, historical settings, statistics, duplicate skipping, disk reload, originals unchanged.")
+            print("Analysis export: PASS — 7 real OCR images, 3 merged plays/6 anonymous date records, \(model.state.songs.count) songs/\(model.state.charts.count) charts; JSON versions/nulls, historical settings, statistics, duplicate skipping, disk reload, originals unchanged.")
             fflush(stdout)
             return model
         } catch { fputs("分析出力検証エラー: \(error.localizedDescription)\n", stderr); return nil }

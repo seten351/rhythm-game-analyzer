@@ -3,8 +3,8 @@ import ResultCore
 
 /// Disposable UI fixture. Both entry points create an in-memory repository explicitly.
 @MainActor enum LibraryVerification {
-    static func previewModel() -> AppModel {
-        let model = AppModel(inMemory: true)
+    static func previewModel(artwork: SongArtworkStore? = nil) -> AppModel {
+        let model = AppModel(inMemory: true, artwork: artwork)
         guard model.startupError == nil else { return model }
         var state = model.state
         let wired = PlayEnvironment(name: "iPad", device: TimingEnvironmentPolicy.fixedDeviceName, audioOutput: "有線イヤホン", settings: .init(noteSpeed: 10.5, noteTiming: 0.1, chartPosition: 0, mirror: false))

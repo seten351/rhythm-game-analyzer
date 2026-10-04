@@ -75,11 +75,13 @@ enum BrandLineRole {
 struct BrandNoteLines: View {
     let colors: BrandColors
     var role: BrandLineRole = .signature
+    var progress: CGFloat = 1
     var body: some View {
         ZStack(alignment: .topLeading) {
             ForEach(role.widths.indices, id: \.self) { index in
                 Capsule().fill([colors.ink.color, colors.noteBlue.color, colors.notePink.color][index])
                     .frame(width: role.widths[index], height: role.lineHeight)
+                    .scaleEffect(x: min(1, max(0, progress * 1.35 - CGFloat(index) * 0.17)), y: 1, anchor: .leading)
                     .offset(role.offset(for: index))
             }
         }.frame(width: role.size.width, height: role.size.height).rotationEffect(.degrees(-18))
@@ -143,7 +145,7 @@ struct BrandEmptyState: View {
             HStack(spacing: 8) {
                 BrandNoteLines(colors: palette.brand, role: .section)
                 BrandScriptLabel(category: category)
-            }
+            }.modifier(BrandEmptyMarkAppearance())
             Text(title).font(titleFont)
             if let description { Text(description).font(.callout).foregroundStyle(.secondary) }
         }.multilineTextAlignment(alignment == .leading ? .leading : .center)
@@ -164,12 +166,15 @@ struct BrandSidebarNavigation: View {
     @Binding var selection: Page?
     let pendingCount: Int
     @Environment(\.appPalette) private var palette
+    @BrandReduceMotion private var reduceMotion
+    @Namespace private var selectionMotion
     @FocusState private var hasKeyboardFocus: Bool
     var body: some View {
         List {
             ForEach([Page.home, .library, .imports, .analysis]) { item in navigationButton(item) }
             Section("管理") { ForEach([Page.catalog, .settings]) { item in navigationButton(item) } }
         }.listStyle(.sidebar).scrollContentBackground(.hidden)
+            .animation(BrandMotion.selection(reduceMotion: reduceMotion), value: selection)
             .focusable().focused($hasKeyboardFocus).focusEffectDisabled()
             .onKeyPress(.upArrow) { moveSelection(by: -1); return .handled }
             .onKeyPress(.downArrow) { moveSelection(by: 1); return .handled }
@@ -182,7 +187,13 @@ struct BrandSidebarNavigation: View {
     private func navigationButton(_ item: Page) -> some View {
         Button { selection = item; hasKeyboardFocus = true } label: {
             HStack(spacing: 8) {
-                BrandAccentMark(color: selection == item ? palette.brand.noteBlue.color : .clear).frame(height: 24)
+                ZStack {
+                    Color.clear
+                    if selection == item {
+                        BrandAccentMark(color: palette.brand.noteBlue.color)
+                            .matchedGeometryEffect(id: "sidebar.accent", in: selectionMotion)
+                    }
+                }.frame(width: 3, height: 24).accessibilityHidden(true).allowsHitTesting(false)
                 Label(item.title, systemImage: item.icon)
                     .foregroundStyle(selection == item ? palette.brand.action.color : Color(nsColor: .labelColor))
                 Spacer(minLength: 0)

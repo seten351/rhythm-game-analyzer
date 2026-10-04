@@ -40,6 +40,23 @@ class UpdateCatalogTests(unittest.TestCase):
         self.assertEqual(updated['songs'][0]['id'], original['songs'][0]['id'])
         self.assertEqual(updated['songs'][0]['charts'], original['songs'][0]['charts'])
 
+    def test_linkless_appmedia_rows_keep_distinct_persistent_identity(self):
+        source = pages()
+        for i in (0, 1):
+            source['appmedia'] = source['appmedia'].replace(
+                f'data-name="曲{i}"', f'data-id="{i}" data-name="曲{i}"').replace(
+                f'<a href="/bang-dream-on/{i}">曲{i}</a>', f'曲{i}')
+        original = self.build(source)
+        self.assertEqual(original['songs'][0]['observations']['appmedia']['rowID'], '0')
+        self.assertEqual(original['songs'][1]['observations']['appmedia']['rowID'], '1')
+        self.assertEqual(self.build(source, original), original)
+
+    def test_linkless_appmedia_row_without_stable_id_aborts(self):
+        source = pages()
+        source['appmedia'] = source['appmedia'].replace('<a href="/bang-dream-on/0">曲0</a>', '曲0')
+        with self.assertRaises(CatalogError):
+            self.build(source)
+
     def test_unknown_song_membership_and_source_failure_abort(self):
         source = pages()
         source['appmedia'] = source['appmedia'].replace('曲0', '別の未確認曲')

@@ -46,6 +46,9 @@ struct PendingImport: Identifiable {
     var selectedEnvironmentID: UUID?
     var pendingPreset: GamePreset?
     var lastBatchPlayIDs: [UUID] = []
+    @ObservationIgnored var brandAchievementMotion = BrandAchievementMotionLedger()
+    private(set) var artwork: SongArtworkStore
+    @ObservationIgnored private var artworkReady = false
     let correction: OCRCorrectionController
     private var repository: (any StateRepository)?
     private var importTask: Task<Void, Never>?
@@ -55,8 +58,9 @@ struct PendingImport: Identifiable {
     var storePath: String { repository?.storeURL.path ?? "" }
     var resourceDirectory: URL { Bundle.module.resourceURL!.appendingPathComponent("Resources") }
 
-    init(inMemory: Bool = false, loadBundledCatalog: Bool = true, correctionProvider: any OCRCorrectionProviding = FoundationOCRCorrectionProvider(), correctionTimeout: Duration = .seconds(30), repository suppliedRepository: (any StateRepository)? = nil) {
+    init(inMemory: Bool = false, loadBundledCatalog: Bool = true, correctionProvider: any OCRCorrectionProviding = FoundationOCRCorrectionProvider(), correctionTimeout: Duration = .seconds(30), repository suppliedRepository: (any StateRepository)? = nil, artwork suppliedArtwork: SongArtworkStore? = nil) {
         correction = OCRCorrectionController(provider: correctionProvider, timeout: correctionTimeout)
+        artwork = suppliedArtwork ?? SongArtworkStore()
         do {
             let repository: any StateRepository = try suppliedRepository ?? LocalRepository(inMemory: inMemory); self.repository = repository; state = try repository.load()
             let imported = repository.storeURL.deletingLastPathComponent().appendingPathComponent("preset.json")
@@ -66,12 +70,19 @@ struct PendingImport: Identifiable {
             let preset = try JSONDecoder().decode(GamePreset.self, from: Data(contentsOf: chosen)); try preset.validate(); self.preset = preset
             if loadBundledCatalog { try installBundledCatalog() }
             selectedEnvironmentID = state.environments.first?.id
+            if suppliedArtwork == nil && !inMemory && suppliedRepository == nil {
+                artwork = .persistent(at: repository.storeURL.deletingLastPathComponent().appendingPathComponent("Artwork", isDirectory: true))
+            }
+            artworkReady = true
+            artwork.setCatalog(state)
         } catch { startupError = "起動に失敗しました。保存データは変更していません。\n\(error.localizedDescription)" }
     }
 
     func commit(_ next: AppState) throws {
         guard let repository else { throw CoreError.invalid("保存先を開けません。") }
+        let catalogChanged = next.songs != state.songs || next.bindings != state.bindings
         try repository.save(next); state = next
+        if artworkReady && catalogChanged { artwork.setCatalog(next) }
     }
     func perform(_ action: () throws -> Void) { do { try action() } catch { errorMessage = error.localizedDescription } }
 
@@ -280,7 +291,7 @@ struct PendingImport: Identifiable {
             }
         }
     }
-    private func present(_ panel: NSOpenPanel, accepted: @escaping @MainActor () -> Void) {
+    func present(_ panel: NSOpenPanel, accepted: @escaping @MainActor () -> Void) {
         guard let window = NSApp.keyWindow ?? NSApp.windows.first(where: { $0.isVisible }) else {
             errorMessage = "ファイル選択を表示するウィンドウが見つかりません。"; return
         }
